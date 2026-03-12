@@ -1,0 +1,2372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Influgoo is India's influencer marketing agency for D2C brands in AI, tech, and gadgets. We run end-to-end influencer campaigns that deliver real ROI. Book a free consultation today."/>
+  <meta name="keywords" content="influencer marketing agency India, D2C influencer marketing, tech influencer campaigns, AI startup marketing, influencer outreach India, brand creator matching, influencer marketing platform India, Instagram influencer agency, YouTube influencer marketing"/>
+  <meta name="author" content="Influgoo"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="language" content="English"/>
+  <link rel="canonical" href="https://influgoo.zencampaigns.com/"/>
+
+  <!-- Open Graph (WhatsApp, LinkedIn, Facebook previews) -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://influgoo.zencampaigns.com/"/>
+  <meta property="og:title" content="Influgoo — Influencer Marketing Agency for D2C Brands in India"/>
+  <meta property="og:description" content="We connect D2C brands in AI, tech & gadgets with verified creators and run campaigns end-to-end. 3x average ROAS. Launch in 48 hours."/>
+  <meta property="og:image" content="https://influgoo.zencampaigns.com/og-image.jpg"/>
+  <meta property="og:locale" content="en_IN"/>
+  <meta property="og:site_name" content="Influgoo"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Influgoo — Influencer Marketing for D2C Brands"/>
+  <meta name="twitter:description" content="India's influencer marketing agency for AI, tech & gadget D2C brands. Real results, verified creators, full campaign management."/>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Influgoo",
+    "description": "Influencer marketing agency for D2C brands in India specialising in AI, tech and gadgets.",
+    "url": "https://influgoo.zencampaigns.com",
+    "email": "influgoo@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN"
+    },
+    "areaServed": "India",
+    "serviceType": ["Influencer Marketing", "Campaign Management", "Creator Outreach"],
+    "priceRange": "₹₹",
+    "sameAs": []
+  }
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Influgoo — Influencer Marketing for D2C Brands</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --navy:#0B1F4B;
+  --navy2:#162d6b;
+  --navy-light:#1e3a8a;
+  --accent:#2563EB;
+  --accent2:#3B82F6;
+  --gold:#C9A84C;
+  --bg:#FFFFFF;
+  --bg2:#F7F8FC;
+  --bg3:#EEF1F8;
+  --text:#0B1F4B;
+  --muted:#64748B;
+  --border:#E2E8F0;
+  --white:#FFFFFF;
+}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Manrope',sans-serif;overflow-x:hidden;}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--bg2);}
+::-webkit-scrollbar-thumb{background:var(--navy);border-radius:2px;}
+
+/* NAV */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:999;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 6%;height:72px;
+  background:rgba(255,255,255,0.92);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  transition:box-shadow 0.3s;
+}
+nav.scrolled{box-shadow:0 4px 32px rgba(11,31,75,0.08);}
+.nav-logo{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.7rem;font-weight:700;
+  color:var(--navy);text-decoration:none;
+  letter-spacing:-0.02em;
+}
+.nav-logo span{color:var(--accent);}
+.nav-links{display:flex;align-items:center;gap:8px;list-style:none;}
+.nav-links a{
+  color:var(--muted);text-decoration:none;
+  font-size:0.85rem;font-weight:500;
+  padding:8px 14px;border-radius:6px;
+  transition:all 0.2s;
+}
+.nav-links a:hover{color:var(--navy);background:var(--bg3);}
+.nav-links a.active{color:var(--navy);font-weight:600;}
+.nav-cta{
+  background:var(--navy)!important;
+  color:var(--white)!important;
+  padding:10px 22px!important;
+  border-radius:8px!important;
+  font-weight:600!important;
+  transition:background 0.2s, transform 0.2s!important;
+}
+.nav-cta:hover{background:var(--navy2)!important;transform:translateY(-1px)!important;}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
+.hamburger span{width:22px;height:2px;background:var(--navy);border-radius:2px;transition:all 0.3s;}
+.mobile-menu{
+  display:none;position:fixed;top:72px;left:0;right:0;
+  background:white;border-bottom:1px solid var(--border);
+  padding:16px 6%;z-index:998;
+  flex-direction:column;gap:4px;
+}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{
+  color:var(--text);text-decoration:none;font-size:0.95rem;font-weight:500;
+  padding:12px 0;border-bottom:1px solid var(--border);
+}
+
+/* PAGE TRANSITIONS */
+.page{display:none;animation:pageIn 0.5s ease forwards;}
+.page.active{display:block;}
+@keyframes pageIn{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
+
+/* HERO */
+.hero{
+  min-height:100vh;display:flex;flex-direction:column;
+  justify-content:center;padding:120px 6% 80px;
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg, #ffffff 0%, #f0f4ff 50%, #e8eeff 100%);
+}
+.hero-grid-bg{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(11,31,75,0.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(11,31,75,0.04) 1px,transparent 1px);
+  background-size:60px 60px;
+  pointer-events:none;
+}
+.hero-blob{
+  position:absolute;border-radius:50%;filter:blur(80px);pointer-events:none;
+}
+.blob1{width:500px;height:500px;background:rgba(37,99,235,0.08);top:-100px;right:-100px;animation:blobFloat 8s ease-in-out infinite;}
+.blob2{width:350px;height:350px;background:rgba(11,31,75,0.05);bottom:0;left:-80px;animation:blobFloat 10s ease-in-out infinite reverse;}
+@keyframes blobFloat{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(20px,-20px) scale(1.05);}}
+
+.hero-inner{position:relative;z-index:2;max-width:1100px;}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(37,99,235,0.08);border:1px solid rgba(37,99,235,0.2);
+  color:var(--accent);font-size:0.75rem;font-weight:700;
+  letter-spacing:0.1em;text-transform:uppercase;
+  padding:6px 14px;border-radius:100px;margin-bottom:32px;
+  opacity:0;animation:fadeUp 0.6s ease 0.1s forwards;
+}
+.hero-tag::before{content:'●';font-size:0.5rem;animation:pulse 2s ease infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+
+h1.hero-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(3.2rem,7vw,6.5rem);
+  font-weight:700;line-height:1.0;
+  letter-spacing:-0.02em;
+  color:var(--navy);margin-bottom:28px;
+  opacity:0;animation:fadeUp 0.7s ease 0.25s forwards;
+}
+h1.hero-title em{
+  font-style:italic;color:var(--accent);
+  position:relative;
+}
+h1.hero-title em::after{
+  content:'';position:absolute;left:0;right:0;bottom:-4px;
+  height:2px;background:var(--accent);
+  transform:scaleX(0);transform-origin:left;
+  animation:lineExpand 0.8s ease 1s forwards;
+}
+@keyframes lineExpand{to{transform:scaleX(1);}}
+
+.hero-sub{
+  font-size:clamp(1rem,1.8vw,1.2rem);color:var(--muted);
+  max-width:560px;font-weight:400;line-height:1.75;
+  margin-bottom:48px;
+  opacity:0;animation:fadeUp 0.7s ease 0.4s forwards;
+}
+.hero-btns{
+  display:flex;gap:16px;flex-wrap:wrap;
+  opacity:0;animation:fadeUp 0.7s ease 0.55s forwards;
+}
+.btn-primary{
+  background:var(--navy);color:white;
+  padding:15px 32px;border-radius:10px;
+  font-size:0.9rem;font-weight:600;
+  text-decoration:none;letter-spacing:0.01em;
+  transition:all 0.25s;display:inline-flex;align-items:center;gap:8px;
+  box-shadow:0 4px 20px rgba(11,31,75,0.2);
+}
+.btn-primary:hover{background:var(--navy2);transform:translateY(-2px);box-shadow:0 8px 32px rgba(11,31,75,0.28);}
+.btn-secondary{
+  background:white;color:var(--navy);
+  padding:15px 32px;border-radius:10px;
+  font-size:0.9rem;font-weight:600;
+  text-decoration:none;border:1.5px solid var(--border);
+  transition:all 0.25s;display:inline-flex;align-items:center;gap:8px;
+}
+.btn-secondary:hover{border-color:var(--navy);transform:translateY(-2px);}
+
+.hero-stats{
+  display:flex;gap:0;margin-top:72px;
+  padding-top:48px;border-top:1px solid var(--border);
+  flex-wrap:wrap;
+  opacity:0;animation:fadeUp 0.7s ease 0.7s forwards;
+}
+.stat{padding:0 40px 0 0;border-right:1px solid var(--border);margin-right:40px;}
+.stat:last-child{border-right:none;}
+.stat-n{
+  font-family:'Cormorant Garamond',serif;
+  font-size:2.8rem;font-weight:700;
+  color:var(--navy);line-height:1;letter-spacing:-0.02em;
+}
+.stat-n span{color:var(--accent);}
+.stat-l{font-size:0.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-top:4px;font-weight:500;}
+
+/* SECTION COMMONS */
+section{padding:100px 6%;}
+.sec-label{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:0.72rem;font-weight:700;letter-spacing:0.14em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:16px;
+}
+.sec-label::before{content:'';width:24px;height:1.5px;background:var(--accent);display:inline-block;}
+h2.sec-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2.2rem,4vw,3.5rem);
+  font-weight:700;line-height:1.1;
+  letter-spacing:-0.02em;color:var(--navy);
+  margin-bottom:16px;
+}
+.sec-sub{font-size:1rem;color:var(--muted);max-width:500px;line-height:1.7;font-weight:400;}
+
+/* MARQUEE */
+.marquee-wrap{
+  overflow:hidden;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:16px 0;background:var(--bg2);
+}
+.marquee-track{
+  display:flex;gap:56px;white-space:nowrap;
+  animation:marquee 24s linear infinite;
+}
+.marquee-item{
+  font-size:0.75rem;font-weight:600;letter-spacing:0.12em;
+  text-transform:uppercase;color:var(--muted);
+  flex-shrink:0;display:flex;align-items:center;gap:14px;
+}
+.marquee-item::after{content:'✦';color:var(--accent);font-size:0.55rem;}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* SERVICES SECTION */
+.services-bg{background:var(--bg2);}
+.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:60px;flex-wrap:wrap;gap:24px;}
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
+.svc-card{
+  background:white;border:1px solid var(--border);
+  border-radius:16px;padding:40px 36px;
+  position:relative;overflow:hidden;
+  transition:all 0.3s;cursor:default;
+}
+.svc-card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:0 16px 48px rgba(37,99,235,0.1);}
+.svc-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--navy),var(--accent));
+  transform:scaleX(0);transform-origin:left;transition:transform 0.3s;
+}
+.svc-card:hover::before{transform:scaleX(1);}
+.svc-icon{
+  width:52px;height:52px;border-radius:12px;
+  background:var(--bg3);display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;margin-bottom:24px;
+}
+.svc-card h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.5rem;font-weight:700;
+  color:var(--navy);margin-bottom:12px;letter-spacing:-0.01em;
+}
+.svc-card p{font-size:0.88rem;color:var(--muted);line-height:1.7;}
+.svc-link{
+  display:inline-flex;align-items:center;gap:6px;
+  margin-top:20px;font-size:0.82rem;font-weight:600;
+  color:var(--accent);text-decoration:none;
+  transition:gap 0.2s;
+}
+.svc-link:hover{gap:10px;}
+
+/* HOW IT WORKS */
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:64px;position:relative;}
+.how-grid::before{
+  content:'';position:absolute;top:40px;left:12%;right:12%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--border) 20%,var(--border) 80%,transparent);
+  z-index:0;
+}
+.step-card{
+  padding:0 24px;text-align:center;position:relative;z-index:1;
+}
+.step-num{
+  width:80px;height:80px;border-radius:50%;
+  background:var(--bg2);border:2px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;
+  color:var(--navy);margin:0 auto 28px;
+  transition:all 0.3s;
+}
+.step-card:hover .step-num{
+  background:var(--navy);color:white;border-color:var(--navy);
+  transform:scale(1.08);box-shadow:0 8px 24px rgba(11,31,75,0.2);
+}
+.step-card h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:10px;
+}
+.step-card p{font-size:0.83rem;color:var(--muted);line-height:1.65;}
+
+/* NICHES */
+.niches-bg{background:var(--navy);}
+.niches-bg .sec-label{color:#7fb3ff;}
+.niches-bg .sec-label::before{background:#7fb3ff;}
+.niches-bg h2.sec-title{color:white;}
+.niches-bg .sec-sub{color:rgba(255,255,255,0.55);}
+.niches-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:60px;background:rgba(255,255,255,0.08);}
+.niche-card{
+  background:var(--navy);padding:44px 40px;
+  transition:background 0.3s;cursor:default;
+}
+.niche-card:hover{background:#112359;}
+.niche-icon{font-size:2.2rem;margin-bottom:20px;display:block;}
+.niche-card h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.6rem;font-weight:700;color:white;
+  margin-bottom:12px;letter-spacing:-0.01em;
+}
+.niche-card p{font-size:0.87rem;color:rgba(255,255,255,0.5);line-height:1.7;}
+.niche-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+.niche-tag{
+  font-size:0.72rem;font-weight:600;letter-spacing:0.06em;
+  text-transform:uppercase;color:rgba(255,255,255,0.5);
+  border:1px solid rgba(255,255,255,0.15);
+  padding:4px 10px;border-radius:4px;
+}
+
+/* CASE STUDIES */
+.cs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px;}
+.cs-card{
+  background:white;border:1px solid var(--border);border-radius:16px;
+  overflow:hidden;transition:all 0.3s;
+}
+.cs-card:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(11,31,75,0.1);}
+.cs-top{
+  height:180px;display:flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+}
+.cs-top.blue{background:linear-gradient(135deg,#0B1F4B,#1e3a8a);}
+.cs-top.teal{background:linear-gradient(135deg,#0f4c75,#1b6ca8);}
+.cs-top.indigo{background:linear-gradient(135deg,#1a237e,#3949ab);}
+.cs-brand{
+  font-family:'Cormorant Garamond',serif;
+  font-size:2rem;font-weight:700;color:white;
+  letter-spacing:-0.02em;
+}
+.cs-badge{
+  position:absolute;top:16px;right:16px;
+  background:rgba(255,255,255,0.15);color:white;
+  font-size:0.7rem;font-weight:700;letter-spacing:0.08em;
+  text-transform:uppercase;padding:4px 10px;border-radius:100px;
+}
+.cs-body{padding:28px;}
+.cs-niche{
+  font-size:0.72rem;font-weight:700;letter-spacing:0.1em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:12px;
+}
+.cs-body h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:8px;
+}
+.cs-body p{font-size:0.83rem;color:var(--muted);line-height:1.65;margin-bottom:20px;}
+.cs-metrics{display:flex;gap:20px;}
+.cs-metric{}
+.cs-metric-n{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.6rem;font-weight:700;color:var(--navy);
+}
+.cs-metric-n span{color:var(--accent);}
+.cs-metric-l{font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;font-weight:500;}
+
+/* PRICING CTA */
+.pricing-cta-bg{
+  background:linear-gradient(135deg,var(--navy) 0%,#1e3a8a 100%);
+  text-align:center;position:relative;overflow:hidden;
+}
+.pricing-cta-bg::before{
+  content:'';position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);
+  background-size:48px 48px;
+}
+.pricing-cta-inner{position:relative;z-index:2;}
+.pricing-cta-bg .sec-label{color:#7fb3ff;justify-content:center;}
+.pricing-cta-bg .sec-label::before{background:#7fb3ff;}
+.pricing-cta-bg h2{color:white;text-align:center;margin:0 auto 20px;}
+.pricing-cta-bg .sec-sub{color:rgba(255,255,255,0.6);text-align:center;margin:0 auto 48px;}
+.btn-white{
+  background:white;color:var(--navy);
+  padding:16px 36px;border-radius:10px;
+  font-size:0.95rem;font-weight:700;
+  text-decoration:none;display:inline-flex;align-items:center;gap:8px;
+  transition:all 0.25s;
+  box-shadow:0 4px 20px rgba(0,0,0,0.15);
+}
+.btn-white:hover{transform:translateY(-3px);box-shadow:0 10px 40px rgba(0,0,0,0.2);}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:start;margin-top:64px;}
+.contact-info{}
+.contact-info h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:16px;
+}
+.contact-info p{font-size:0.9rem;color:var(--muted);line-height:1.7;margin-bottom:36px;}
+.contact-items{display:flex;flex-direction:column;gap:20px;}
+.contact-item{display:flex;align-items:center;gap:14px;}
+.contact-item-icon{
+  width:40px;height:40px;border-radius:10px;
+  background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;
+}
+.contact-item-text{font-size:0.88rem;color:var(--muted);}
+.contact-item-text strong{display:block;color:var(--navy);font-size:0.85rem;margin-bottom:2px;}
+.contact-form{
+  background:white;border:1px solid var(--border);
+  border-radius:20px;padding:48px;
+  box-shadow:0 8px 40px rgba(11,31,75,0.06);
+}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.form-group{display:flex;flex-direction:column;gap:6px;margin-bottom:16px;}
+.form-group label{font-size:0.78rem;font-weight:600;color:var(--navy);letter-spacing:0.04em;text-transform:uppercase;}
+.form-group input,.form-group select,.form-group textarea{
+  border:1.5px solid var(--border);border-radius:8px;
+  padding:12px 14px;font-family:'Manrope',sans-serif;
+  font-size:0.88rem;color:var(--text);background:white;
+  transition:border-color 0.2s;outline:none;
+  resize:none;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--accent);}
+.form-group select{appearance:none;cursor:pointer;}
+.form-submit{
+  width:100%;background:var(--navy);color:white;
+  border:none;padding:16px;border-radius:10px;
+  font-family:'Manrope',sans-serif;font-size:0.95rem;font-weight:700;
+  cursor:pointer;transition:all 0.25s;letter-spacing:0.01em;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.form-submit:hover{background:var(--navy2);transform:translateY(-1px);box-shadow:0 6px 24px rgba(11,31,75,0.2);}
+
+/* FOOTER */
+footer{
+  background:var(--navy);color:rgba(255,255,255,0.6);
+  padding:64px 6% 32px;
+}
+.footer-top{
+  display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;
+  gap:48px;margin-bottom:56px;
+}
+.footer-brand .nav-logo{color:white;display:block;margin-bottom:16px;font-size:1.8rem;}
+.footer-brand .nav-logo span{color:#7fb3ff;}
+.footer-brand p{font-size:0.83rem;line-height:1.7;max-width:260px;}
+.footer-col h4{
+  font-size:0.75rem;font-weight:700;letter-spacing:0.12em;
+  text-transform:uppercase;color:white;margin-bottom:20px;
+}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.footer-col ul a{
+  color:rgba(255,255,255,0.5);text-decoration:none;
+  font-size:0.83rem;transition:color 0.2s;
+}
+.footer-col ul a:hover{color:white;}
+.footer-socials{display:flex;gap:10px;margin-top:24px;}
+.social-btn{
+  width:36px;height:36px;border-radius:8px;
+  background:rgba(255,255,255,0.08);
+  display:flex;align-items:center;justify-content:center;
+  color:rgba(255,255,255,0.6);text-decoration:none;font-size:0.85rem;
+  transition:all 0.2s;
+}
+.social-btn:hover{background:rgba(255,255,255,0.16);color:white;}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.08);
+  padding-top:24px;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:12px;
+}
+.footer-bottom p{font-size:0.78rem;}
+.footer-bottom a{color:rgba(255,255,255,0.4);text-decoration:none;font-size:0.78rem;transition:color 0.2s;}
+.footer-bottom a:hover{color:white;}
+
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.65s ease,transform 0.65s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.reveal-delay-1{transition-delay:0.1s;}
+.reveal-delay-2{transition-delay:0.2s;}
+.reveal-delay-3{transition-delay:0.3s;}
+.reveal-delay-4{transition-delay:0.4s;}
+
+
+/* BLOG SECTION */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px;}
+@media(max-width:768px){
+  /* HOW IT WORKS - stack steps on mobile */
+  #page-howitworks .how-step-outer{grid-template-columns:1fr!important;gap:16px!important;}
+  #page-howitworks .how-step-inner{grid-template-columns:1fr!important;gap:20px!important;}
+  #page-howitworks .step-number{font-size:2.5rem!important;}
+  #page-howitworks section{padding:40px 20px!important;}
+  #page-howitworks > div:first-child{padding:100px 20px 48px!important;}
+  #page-howitworks h1{font-size:2.2rem!important;}
+  /* NAV */
+  nav .nav-links{display:none!important;}
+  .hamburger{display:flex!important;}
+  /* FAQ PAGE */
+  .faq-page-grid{grid-template-columns:1fr!important;gap:16px!important;}
+  #page-faq > div:first-child{padding:100px 20px 48px!important;}
+  #page-faq h1{font-size:2.2rem!important;}
+  #page-faq section{padding:40px 20px!important;}
+  .faq-q{font-size:0.9rem!important;padding:18px 0!important;}
+  .faq-a{font-size:0.85rem!important;}
+  /* BLOG */
+  .blog-preview-grid{grid-template-columns:1fr!important;}.blog-grid{grid-template-columns:1fr!important;}.blog-preview-grid{grid-template-columns:1fr!important;}.blog-card[style*="grid-template-columns:200px"]{display:block!important;}.blog-card[style*="grid-template-columns:200px"] .blog-img{height:140px!important;border-radius:16px 16px 0 0!important;}}
+.blog-card{
+  background:white;border:1px solid var(--border);border-radius:16px;
+  overflow:hidden;transition:all 0.3s;text-decoration:none;display:block;
+}
+.blog-card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(11,31,75,0.1);}
+.blog-img{
+  height:160px;display:flex;align-items:center;justify-content:center;
+  font-size:2.5rem;position:relative;overflow:hidden;
+}
+.blog-img.bg1{background:linear-gradient(135deg,#eff6ff,#dbeafe);}
+.blog-img.bg2{background:linear-gradient(135deg,#f0fdf4,#dcfce7);}
+.blog-img.bg3{background:linear-gradient(135deg,#fef9c3,#fef08a);}
+.blog-body{padding:24px;}
+.blog-tag{
+  font-size:0.7rem;font-weight:700;letter-spacing:0.1em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:10px;display:block;
+}
+.blog-card h3{
+  font-family:'Cormorant Garamond',serif;font-size:1.2rem;
+  font-weight:700;color:var(--navy);margin-bottom:8px;
+  line-height:1.3;letter-spacing:-0.01em;
+}
+.blog-card p{font-size:0.82rem;color:var(--muted);line-height:1.65;margin-bottom:16px;}
+.blog-meta{font-size:0.75rem;color:var(--muted);display:flex;align-items:center;gap:6px;}
+.blog-meta::before{content:'';width:16px;height:1px;background:var(--border);display:inline-block;}
+
+/* EXIT POPUP */
+.exit-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,0.5);
+  z-index:99999;display:none;align-items:center;justify-content:center;
+  backdrop-filter:blur(4px);
+}
+.exit-overlay.show{display:flex;animation:fadeIn 0.3s ease;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+.exit-box{
+  background:white;border-radius:24px;padding:52px 48px;
+  max-width:480px;width:90%;text-align:center;
+  position:relative;animation:slideUp 0.35s ease;
+  box-shadow:0 24px 80px rgba(11,31,75,0.2);
+}
+@keyframes slideUp{from{transform:translateY(30px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+.exit-close{
+  position:absolute;top:16px;right:20px;
+  background:none;border:none;font-size:1.3rem;cursor:pointer;
+  color:var(--muted);transition:color 0.2s;
+}
+.exit-close:hover{color:var(--text);}
+.exit-emoji{font-size:3rem;margin-bottom:16px;display:block;}
+.exit-box h3{
+  font-family:'Cormorant Garamond',serif;font-size:2rem;
+  font-weight:700;color:var(--navy);margin-bottom:12px;letter-spacing:-0.02em;
+}
+.exit-box p{font-size:0.9rem;color:var(--muted);line-height:1.7;margin-bottom:28px;}
+.exit-skip{
+  display:block;margin-top:14px;font-size:0.78rem;
+  color:var(--muted);cursor:pointer;transition:color 0.2s;
+  background:none;border:none;font-family:'Manrope',sans-serif;
+}
+.exit-skip:hover{color:var(--text);}
+
+/* FAQ */
+.faq-list{max-width:760px;margin:56px auto 0;display:flex;flex-direction:column;gap:0;}
+.faq-item{border-bottom:1px solid var(--border);}
+.faq-q{
+  width:100%;background:none;border:none;padding:24px 0;
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:'Manrope',sans-serif;font-size:0.95rem;font-weight:600;
+  color:var(--navy);cursor:pointer;text-align:left;gap:16px;
+}
+.faq-icon{
+  width:28px;height:28px;border-radius:50%;
+  background:var(--bg3);display:flex;align-items:center;justify-content:center;
+  font-size:0.75rem;flex-shrink:0;color:var(--navy);
+  transition:all 0.3s;font-weight:700;
+}
+.faq-item.open .faq-icon{background:var(--navy);color:white;transform:rotate(45deg);}
+.faq-a{
+  font-size:0.88rem;color:var(--muted);line-height:1.75;
+  max-height:0;overflow:hidden;opacity:0;padding-bottom:0;
+  transition:max-height 0.42s cubic-bezier(0.4,0,0.2,1),
+             opacity 0.3s ease,
+             padding-bottom 0.3s ease;
+}
+.faq-item.open .faq-a{max-height:600px;padding-bottom:20px;opacity:1;}
+.faq-icon{
+  width:28px;height:28px;border-radius:50%;
+  background:var(--bg3);display:flex;align-items:center;justify-content:center;
+  font-size:0.75rem;flex-shrink:0;color:var(--navy);
+  transition:all 0.35s cubic-bezier(0.4,0,0.2,1);font-weight:700;
+}
+
+/* BONUS BANNER */
+.bonus-banner{
+  background:linear-gradient(135deg,#0B1F4B 0%,#1e3a8a 100%);
+  border-radius:20px;padding:48px;display:flex;align-items:center;
+  gap:40px;margin-top:60px;position:relative;overflow:hidden;
+  flex-wrap:wrap;
+}
+.bonus-banner::before{
+  content:'FREE BONUS';position:absolute;top:20px;right:-30px;
+  background:var(--accent);color:var(--navy);font-size:0.65rem;font-weight:800;
+  letter-spacing:0.15em;padding:6px 48px;transform:rotate(35deg);
+}
+.bonus-icon{font-size:3.5rem;flex-shrink:0;}
+.bonus-content{}
+.bonus-content h3{
+  font-family:'Cormorant Garamond',serif;font-size:1.8rem;
+  font-weight:700;color:white;margin-bottom:8px;letter-spacing:-0.02em;
+}
+.bonus-content p{font-size:0.9rem;color:rgba(255,255,255,0.65);line-height:1.7;max-width:480px;}
+.bonus-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+.bonus-tag{
+  font-size:0.72rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;
+  color:rgba(255,255,255,0.7);border:1px solid rgba(255,255,255,0.2);
+  padding:4px 10px;border-radius:4px;
+}
+
+/* ACTIVE NAV */
+.nav-links a.page-active{color:var(--navy);font-weight:600;}
+
+@media(max-width:1024px){
+  .services-grid{grid-template-columns:1fr;}
+  .cs-grid{grid-template-columns:1fr 1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .how-grid{grid-template-columns:1fr 1fr;gap:40px;}
+  .how-grid::before{display:none;}
+  .niches-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+}
+@media(max-width:768px){
+  nav .nav-links{display:none;}
+  .hamburger{display:flex;}
+  .cs-grid{grid-template-columns:1fr;}
+  .hero-stats{gap:24px;}
+  .stat{padding:0 20px 0 0;margin-right:20px;}
+  .services-grid{grid-template-columns:1fr;}
+  .contact-form{padding:28px;}
+  .form-row{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  h1.hero-title{font-size:2.8rem;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+  <ul class="nav-links">
+    <li><a href="javascript:void(0)" onclick="showPage('home')" id="nav-home" class="page-active">Home</a></li>
+    <li><a href="javascript:void(0)" onclick="showPage('services')" id="nav-services">Services</a></li>
+    <li><a href="javascript:void(0)" onclick="showPage('howitworks')" id="nav-howitworks">How It Works</a></li>
+    <li><a href="javascript:void(0)" onclick="showPage('casestudies')" id="nav-casestudies">Case Studies</a></li>
+    <li><a href="javascript:void(0)" onclick="showPage('blog')" id="nav-blog">Blog</a></li>
+    <li><a href="javascript:void(0)" onclick="showPage('faq')" id="nav-faq">FAQ</a></li>
+    <li><a href="https://calendly.com/influgoo/30min" target="_blank" id="nav-contact" class="nav-cta">Book a Call</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="javascript:void(0)" onclick="showPage('home');toggleMobile()">Home</a>
+  <a href="javascript:void(0)" onclick="showPage('services');toggleMobile()">Services</a>
+  <a href="javascript:void(0)" onclick="showPage('howitworks');toggleMobile()">How It Works</a>
+  <a href="javascript:void(0)" onclick="showPage('casestudies');toggleMobile()">Case Studies</a>
+  <a href="javascript:void(0)" onclick="showPage('blog');toggleMobile()">Blog</a>
+  <a href="javascript:void(0)" onclick="showPage('faq');toggleMobile()">FAQ</a>
+  <a href="javascript:void(0)" onclick="showPage('contact');toggleMobile()">Book a Call →</a>
+</div>
+
+<!-- ==================== HOME PAGE ==================== -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+    <div class="hero-inner">
+      <div class="hero-tag">India's #1 D2C Influencer Agency</div>
+      <h1 class="hero-title">Influencer Marketing<br/>That <em>Drives Sales</em><br/>Not Just Views</h1>
+      <p class="hero-sub">We connect AI, tech & gadget D2C brands with verified creators, run campaigns end-to-end, and deliver measurable ROI — starting in 48 hours.</p>
+      <div class="hero-btns">
+        <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-primary">Book Free Consultation <span>→</span></a>
+        <a href="javascript:void(0)" onclick="showPage('casestudies')" class="btn-secondary">See Case Studies</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-n">500<span>+</span></div>
+          <div class="stat-l">Verified Creators</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">3<span>x</span></div>
+          <div class="stat-l">Avg. ROAS</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">48<span>h</span></div>
+          <div class="stat-l">Campaign Launch</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">92<span>%</span></div>
+          <div class="stat-l">Client Retention</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span class="marquee-item">Influencer Outreach</span>
+      <span class="marquee-item">Campaign Management</span>
+      <span class="marquee-item">Creator Verification</span>
+      <span class="marquee-item">Brand Matching</span>
+      <span class="marquee-item">Tech & Gadgets</span>
+      <span class="marquee-item">AI Startups</span>
+      <span class="marquee-item">D2C Brands</span>
+      <span class="marquee-item">Performance Analytics</span>
+      <span class="marquee-item">India-First</span>
+      <span class="marquee-item">Influencer Outreach</span>
+      <span class="marquee-item">Campaign Management</span>
+      <span class="marquee-item">Creator Verification</span>
+      <span class="marquee-item">Brand Matching</span>
+      <span class="marquee-item">Tech & Gadgets</span>
+      <span class="marquee-item">AI Startups</span>
+      <span class="marquee-item">D2C Brands</span>
+      <span class="marquee-item">Performance Analytics</span>
+      <span class="marquee-item">India-First</span>
+    </div>
+  </div>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="services-bg">
+    <div class="services-header">
+      <div>
+        <div class="sec-label reveal">What We Do</div>
+        <h2 class="sec-title reveal">Two Services.<br/>One Goal: Your Growth.</h2>
+      </div>
+      <a href="javascript:void(0)" onclick="showPage('services')" class="btn-secondary reveal">View All Services →</a>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card reveal">
+        <div class="svc-icon">🎯</div>
+        <h3>Influencer Outreach & Campaigns</h3>
+        <p>We find, vet, and activate the right creators for your brand. From micro-influencers to top-tier YouTubers — all in your niche, all verified.</p>
+        <a href="javascript:void(0)" onclick="showPage('services')" class="svc-link">Learn more →</a>
+      </div>
+      <div class="svc-card reveal reveal-delay-1">
+        <div class="svc-icon">⚡</div>
+        <h3>End-to-End Campaign Management</h3>
+        <p>Brief creation, content approvals, live scheduling, payments, and ROI reporting. You focus on your product — we handle everything else.</p>
+        <a href="javascript:void(0)" onclick="showPage('services')" class="svc-link">Learn more →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BONUS BANNER -->
+  <section style="background:var(--bg2);padding-top:0;">
+    <div class="bonus-banner reveal">
+      <div class="bonus-icon">🤝</div>
+      <div class="bonus-content">
+        <h3>Free LinkedIn Auto-Post Automation<br/>With Every Campaign</h3>
+        <p>Every brand that runs a campaign with us gets our LinkedIn automation tool for free — automatically repurpose your influencer campaign content into LinkedIn posts, scheduled and posted without lifting a finger.</p>
+        <div class="bonus-tags">
+          <span class="bonus-tag">✦ Auto Scheduling</span>
+          <span class="bonus-tag">✦ Content Repurposing</span>
+          <span class="bonus-tag">✦ Zero Manual Work</span>
+          <span class="bonus-tag">✦ Free With Campaign</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NICHES PREVIEW -->
+  <section class="niches-bg">
+    <div class="sec-label reveal">Our Expertise</div>
+    <h2 class="sec-title reveal">Built for the Brands<br/>of Tomorrow</h2>
+    <p class="sec-sub reveal">We specialise in two high-growth D2C verticals where influencer marketing drives real revenue.</p>
+    <div class="niches-grid" style="margin-top:60px;">
+      <div class="niche-card reveal">
+        <span class="niche-icon">🤖</span>
+        <h3>AI & Startups</h3>
+        <p>Helping AI-first and tech-driven D2C brands build credibility fast with targeted creator partnerships that explain complex products simply.</p>
+        <div class="niche-tags">
+          <span class="niche-tag">SaaS Tools</span>
+          <span class="niche-tag">AI Products</span>
+          <span class="niche-tag">Productivity</span>
+          <span class="niche-tag">EdTech</span>
+        </div>
+      </div>
+      <div class="niche-card reveal reveal-delay-1">
+        <span class="niche-icon">📱</span>
+        <h3>Tech & Gadgets</h3>
+        <p>Unboxings, reviews, and demo campaigns that convert curious viewers into buyers — powered by India's top tech creators.</p>
+        <div class="niche-tags">
+          <span class="niche-tag">Consumer Tech</span>
+          <span class="niche-tag">Wearables</span>
+          <span class="niche-tag">Smart Home</span>
+          <span class="niche-tag">Accessories</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES PREVIEW -->
+  <section>
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:60px;flex-wrap:wrap;gap:24px;">
+      <div>
+        <div class="sec-label reveal">Results</div>
+        <h2 class="sec-title reveal">Campaigns That<br/>Moved the Needle</h2>
+      </div>
+      <a href="javascript:void(0)" onclick="showPage('casestudies')" class="btn-secondary reveal">All Case Studies →</a>
+    </div>
+    <div class="cs-grid">
+      <div class="cs-card reveal">
+        <div class="cs-top blue">
+          <div class="cs-brand">NexTech</div>
+          <span class="cs-badge">Tech & Gadgets</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">Smart Home · Launch Campaign</div>
+          <h3>Product launch reached 2.1M in 3 weeks</h3>
+          <p>Partnered with 14 tech creators to drive awareness and sales for a new smart home device launch.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="cs-metric-n">4.2<span>x</span></div><div class="cs-metric-l">ROAS</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">2.1<span>M</span></div><div class="cs-metric-l">Reach</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">9.4<span>%</span></div><div class="cs-metric-l">Engagement</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-card reveal reveal-delay-1">
+        <div class="cs-top teal">
+          <div class="cs-brand">Airo AI</div>
+          <span class="cs-badge">AI Startup</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">AI Productivity Tool · User Acquisition</div>
+          <h3>From 0 to 8,000 signups in 30 days</h3>
+          <p>Micro-influencer strategy targeting productivity & tech audiences generated massive signup volume.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="cs-metric-n">8K<span>+</span></div><div class="cs-metric-l">Signups</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">₹18<span></span></div><div class="cs-metric-l">Cost/Signup</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">22<span></span></div><div class="cs-metric-l">Creators Used</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-card reveal reveal-delay-2">
+        <div class="cs-top indigo">
+          <div class="cs-brand">GadgetX</div>
+          <span class="cs-badge">Consumer Tech</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">Wearables · Retention Campaign</div>
+          <h3>40% repeat purchase rate via creator content</h3>
+          <p>Long-form YouTube reviews combined with Instagram reels built trust and drove strong repeat buying.</p>
+          <div class="cs-metrics">
+            <div class="cs-metric"><div class="cs-metric-n">40<span>%</span></div><div class="cs-metric-l">Repeat Buy</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">3.8<span>x</span></div><div class="cs-metric-l">ROAS</div></div>
+            <div class="cs-metric"><div class="cs-metric-n">1.4<span>M</span></div><div class="cs-metric-l">Views</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG TEASER -->
+  <section style="background:var(--bg2);">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;margin-bottom:48px;">
+      <div>
+        <div class="sec-label reveal">Insights</div>
+        <h2 class="sec-title reveal">Learn Influencer Marketing<br/>from Our Blog</h2>
+      </div>
+      <a href="javascript:void(0)" onclick="showPage('blog')" class="btn-secondary reveal">Read All 10 Articles →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;" class="blog-preview-grid">
+      <div class="blog-card reveal" onclick="showPage('blog')" style="cursor:pointer;">
+        <div class="blog-img bg1">📈</div>
+        <div class="blog-body">
+          <span class="blog-tag">Strategy</span>
+          <h3>How D2C Brands in India 3x Their ROAS with Influencer Marketing</h3>
+          <div class="blog-meta">5 min read</div>
+        </div>
+      </div>
+      <div class="blog-card reveal reveal-delay-1" onclick="showPage('blog')" style="cursor:pointer;">
+        <div class="blog-img bg2">🤖</div>
+        <div class="blog-body">
+          <span class="blog-tag">AI & Tech</span>
+          <h3>Why AI Startups Convert Better Through Influencer Content</h3>
+          <div class="blog-meta">4 min read</div>
+        </div>
+      </div>
+      <div class="blog-card reveal reveal-delay-2" onclick="showPage('blog')" style="cursor:pointer;">
+        <div class="blog-img bg3">🔍</div>
+        <div class="blog-body">
+          <span class="blog-tag">Creator Guide</span>
+          <h3>How to Spot Fake Influencers Before Wasting Your Budget</h3>
+          <div class="blog-meta">6 min read</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="pricing-cta-bg">
+    <div class="pricing-cta-inner">
+      <div class="sec-label">Get Started</div>
+      <h2 class="sec-title">Ready to Scale Your Brand<br/>with Influencer Marketing?</h2>
+      <p class="sec-sub">No retainers, no lock-ins to start. Book a free 30-minute consultation and we'll map out your first campaign together.</p>
+      <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-white">Book Free Consultation →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== SERVICES PAGE ==================== -->
+<div id="page-services" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);min-height:50vh;position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">Our Services</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">Everything You Need to<br/><em style="font-style:italic;color:var(--accent);">Win with Creators</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">Two focused services. Full execution. Built specifically for D2C brands in tech and AI that want results, not reports.</p>
+    </div>
+  </div>
+
+  <section style="background:white;">
+    <div class="sec-label reveal">Service 01</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:40px;" class="service-detail-grid">
+      <div>
+        <h2 class="sec-title reveal">Influencer Outreach<br/>& Campaigns</h2>
+        <p style="color:var(--muted);font-size:0.95rem;line-height:1.75;margin-bottom:32px;" class="reveal">Finding the right influencer for a tech or AI product is hard. Most agencies just search by follower count. We go deeper — audience demographics, engagement authenticity, niche authority, and past brand performance.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;" class="reveal">
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="width:28px;height:28px;background:var(--bg3);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;flex-shrink:0;">✓</div>
+            <div><strong style="display:block;font-size:0.88rem;color:var(--navy);margin-bottom:3px;">Deep Creator Research</strong><span style="font-size:0.83rem;color:var(--muted);">We manually vet every creator — no databases, no random picks.</span></div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="width:28px;height:28px;background:var(--bg3);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;flex-shrink:0;">✓</div>
+            <div><strong style="display:block;font-size:0.88rem;color:var(--navy);margin-bottom:3px;">Outreach & Negotiation</strong><span style="font-size:0.83rem;color:var(--muted);">We handle all communication, rates, and agreements on your behalf.</span></div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="width:28px;height:28px;background:var(--bg3);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;flex-shrink:0;">✓</div>
+            <div><strong style="display:block;font-size:0.88rem;color:var(--navy);margin-bottom:3px;">Fake Engagement Detection</strong><span style="font-size:0.83rem;color:var(--muted);">Zero bought followers. Every creator passes our authenticity check.</span></div>
+          </div>
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div style="width:28px;height:28px;background:var(--bg3);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;flex-shrink:0;">✓</div>
+            <div><strong style="display:block;font-size:0.88rem;color:var(--navy);margin-bottom:3px;">Multi-Platform Activation</strong><span style="font-size:0.83rem;color:var(--muted);">Instagram Reels, YouTube Reviews, LinkedIn for B2B — wherever your audience is.</span></div>
+          </div>
+        </div>
+        <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-primary" style="margin-top:36px;display:inline-flex;">Get Started →</a>
+      </div>
+      <div style="background:var(--bg2);border-radius:20px;padding:44px;border:1px solid var(--border);" class="reveal">
+        <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:24px;">What's Included</div>
+        <div style="display:flex;flex-direction:column;gap:0;">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:0.88rem;color:var(--text);">Creator research & shortlisting</span>
+            <span style="font-size:0.75rem;color:var(--accent);font-weight:700;background:rgba(37,99,235,0.08);padding:3px 8px;border-radius:4px;">Included</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:0.88rem;color:var(--text);">Outreach & rate negotiation</span>
+            <span style="font-size:0.75rem;color:var(--accent);font-weight:700;background:rgba(37,99,235,0.08);padding:3px 8px;border-radius:4px;">Included</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:0.88rem;color:var(--text);">Content brief creation</span>
+            <span style="font-size:0.75rem;color:var(--accent);font-weight:700;background:rgba(37,99,235,0.08);padding:3px 8px;border-radius:4px;">Included</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);">
+            <span style="font-size:0.88rem;color:var(--text);">Campaign performance report</span>
+            <span style="font-size:0.75rem;color:var(--accent);font-weight:700;background:rgba(37,99,235,0.08);padding:3px 8px;border-radius:4px;">Included</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;">
+            <span style="font-size:0.88rem;color:var(--text);">Payment handling & escrow</span>
+            <span style="font-size:0.75rem;color:var(--accent);font-weight:700;background:rgba(37,99,235,0.08);padding:3px 8px;border-radius:4px;">Included</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--bg2);">
+    <div class="sec-label reveal">Service 02</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:40px;" class="service-detail-grid">
+      <div style="background:white;border-radius:20px;padding:44px;border:1px solid var(--border);" class="reveal">
+        <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:24px;">Campaign Timeline</div>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="width:32px;height:32px;background:var(--navy);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;flex-shrink:0;">1</div>
+            <div><strong style="display:block;font-size:0.85rem;color:var(--navy);">Day 1 — Brief & Strategy</strong><span style="font-size:0.8rem;color:var(--muted);">We define goals, audience, messaging, and creator profile.</span></div>
+          </div>
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="width:32px;height:32px;background:var(--navy);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;flex-shrink:0;">2</div>
+            <div><strong style="display:block;font-size:0.85rem;color:var(--navy);">Day 2–3 — Creator Selection</strong><span style="font-size:0.8rem;color:var(--muted);">Shortlist reviewed and approved by you before outreach.</span></div>
+          </div>
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="width:32px;height:32px;background:var(--navy);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;flex-shrink:0;">3</div>
+            <div><strong style="display:block;font-size:0.85rem;color:var(--navy);">Day 4–7 — Content Production</strong><span style="font-size:0.8rem;color:var(--muted);">Creators produce content. You approve before anything goes live.</span></div>
+          </div>
+          <div style="display:flex;gap:16px;align-items:flex-start;">
+            <div style="width:32px;height:32px;background:var(--accent);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;flex-shrink:0;">4</div>
+            <div><strong style="display:block;font-size:0.85rem;color:var(--navy);">Day 7+ — Live & Reporting</strong><span style="font-size:0.8rem;color:var(--muted);">Campaign goes live. Real-time tracking and ROI report delivered.</span></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="sec-title reveal">End-to-End<br/>Campaign Management</h2>
+        <p style="color:var(--muted);font-size:0.95rem;line-height:1.75;margin-bottom:32px;" class="reveal">Running an influencer campaign is a full-time job. We take the entire operational load off your plate — from first brief to final report — so you can stay focused on building your product.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" class="reveal">
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;">
+            <div style="font-size:1.5rem;margin-bottom:8px;">📋</div>
+            <div style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:4px;">Brief Creation</div>
+            <div style="font-size:0.78rem;color:var(--muted);">We write clear creative briefs that get great content.</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;">
+            <div style="font-size:1.5rem;margin-bottom:8px;">✅</div>
+            <div style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:4px;">Content Approvals</div>
+            <div style="font-size:0.78rem;color:var(--muted);">Nothing goes live without your sign-off first.</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;">
+            <div style="font-size:1.5rem;margin-bottom:8px;">🔒</div>
+            <div style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:4px;">Secure Payments</div>
+            <div style="font-size:0.78rem;color:var(--muted);">Escrow-style: creators paid only on delivery.</div>
+          </div>
+          <div style="background:var(--bg3);border-radius:12px;padding:20px;">
+            <div style="font-size:1.5rem;margin-bottom:8px;">📊</div>
+            <div style="font-size:0.85rem;font-weight:600;color:var(--navy);margin-bottom:4px;">ROI Reports</div>
+            <div style="font-size:0.78rem;color:var(--muted);">Real metrics — reach, clicks, conversions, ROAS.</div>
+          </div>
+        </div>
+        <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-primary" style="margin-top:36px;display:inline-flex;">Start a Campaign →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing-cta-bg">
+    <div class="pricing-cta-inner">
+      <div class="sec-label">Next Step</div>
+      <h2 class="sec-title">Let's Talk About<br/>Your Brand</h2>
+      <p class="sec-sub">Book a free 30-minute call. We'll ask about your product, audience, and goals — and tell you exactly what we'd do.</p>
+      <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-white">Book Free Call →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== HOW IT WORKS PAGE ==================== -->
+<div id="page-howitworks" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">The Process</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">From Brief to Results<br/>in <em style="font-style:italic;color:var(--accent);">7 Days</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">A clear, fast, and transparent process — so you always know what's happening with your campaign.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-label reveal">Step by Step</div>
+    <h2 class="sec-title reveal">How We Run Your Campaign</h2>
+    <div style="display:flex;flex-direction:column;gap:0;margin-top:64px;">
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:40px;padding:48px 0;border-bottom:1px solid var(--border);align-items:start;" class="how-step-outer" class="reveal">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:700;color:var(--bg3);line-height:1;letter-spacing:-0.05em;" class="step-number">01</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;" class="how-step-inner">
+          <div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Discovery Call & Brief</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;">We start with a 30-minute call to understand your product, target audience, goals, and budget. From this, we build a complete campaign brief — including platform strategy, creator profile, content format, and KPIs.</p>
+          </div>
+          <div style="background:var(--bg2);border-radius:12px;padding:24px;border:1px solid var(--border);">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">You'll walk away with</div>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> A clear campaign strategy doc</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Defined KPIs and expected outcomes</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Platform and creator type recommendations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:40px;padding:48px 0;border-bottom:1px solid var(--border);align-items:start;" class="how-step-outer" class="reveal">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:700;color:var(--bg3);line-height:1;letter-spacing:-0.05em;" class="step-number">02</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;" class="how-step-inner">
+          <div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Creator Research & Vetting</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;">We manually research and shortlist creators that match your brand. We check audience demographics, engagement rate authenticity, niche authority, past brand performance, and content quality. You get a shortlist with full analysis for each creator.</p>
+          </div>
+          <div style="background:var(--bg2);border-radius:12px;padding:24px;border:1px solid var(--border);">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Our vetting checks</div>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Real vs bought followers analysis</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Audience age/location/interest fit</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Brand safety & content history review</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:40px;padding:48px 0;border-bottom:1px solid var(--border);align-items:start;" class="how-step-outer" class="reveal">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:700;color:var(--bg3);line-height:1;letter-spacing:-0.05em;" class="step-number">03</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;" class="how-step-inner">
+          <div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Outreach & Agreements</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;">We handle all communication with creators — pitch, negotiate rates, agree on deliverables, and finalise contracts. You never have to chase a DM. Once confirmed, we collect advance payments using an escrow-style process for security.</p>
+          </div>
+          <div style="background:var(--bg2);border-radius:12px;padding:24px;border:1px solid var(--border);">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">What we handle</div>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> All creator communication</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Rate negotiation & contracts</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Escrow-style payment protection</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:40px;padding:48px 0;border-bottom:1px solid var(--border);align-items:start;" class="how-step-outer" class="reveal">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:700;color:var(--bg3);line-height:1;letter-spacing:-0.05em;" class="step-number">04</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;" class="how-step-inner">
+          <div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Content Review & Go Live</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;">Every piece of content is reviewed by us and shared with you for approval before going live. Once you're happy, we coordinate posting schedules for maximum reach and manage all creator communication during the live phase.</p>
+          </div>
+          <div style="background:var(--bg2);border-radius:12px;padding:24px;border:1px solid var(--border);">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Quality control</div>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Content reviewed vs your brief</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Your approval required before posting</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Coordinated post scheduling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:40px;padding:48px 0;align-items:start;" class="reveal">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:700;color:var(--bg3);line-height:1;letter-spacing:-0.05em;" class="step-number">05</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;" class="how-step-inner">
+          <div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Performance Report & Insights</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;">After the campaign, we deliver a detailed report — reach, impressions, engagement rate, click-through, conversions, ROAS, and lessons learned. Real data, no fluff. We also recommend the next campaign based on what worked.</p>
+          </div>
+          <div style="background:var(--bg2);border-radius:12px;padding:24px;border:1px solid var(--border);">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Report includes</div>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Reach, impressions, engagement</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Conversions & ROAS</li>
+              <li style="font-size:0.83rem;color:var(--text);display:flex;gap:8px;align-items:center;"><span style="color:var(--accent);">→</span> Insights & next campaign suggestions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing-cta-bg">
+    <div class="pricing-cta-inner">
+      <div class="sec-label">Get Moving</div>
+      <h2 class="sec-title">Start Your First Campaign<br/>This Week</h2>
+      <p class="sec-sub">Book a free call today. We can have your first campaign live within 7 days of your brief.</p>
+      <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-white">Book Free Consultation →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== CASE STUDIES PAGE ==================== -->
+<div id="page-casestudies" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">Case Studies</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">Real Campaigns.<br/><em style="font-style:italic;color:var(--accent);">Real Results.</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">A look at campaigns we've run for D2C brands across tech, gadgets, and AI — with actual numbers, not vague claims.</p>
+    </div>
+  </div>
+
+  <section>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:32px;" class="cs-full-grid">
+
+      <div class="cs-card reveal" style="border-radius:16px;">
+        <div class="cs-top blue" style="height:200px;">
+          <div class="cs-brand">NexTech</div>
+          <span class="cs-badge">Tech & Gadgets</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">Smart Home · Product Launch</div>
+          <h3 style="font-size:1.3rem;">Product launch reached 2.1M people in 3 weeks</h3>
+          <p>NexTech came to us with a new smart home hub needing a big India launch. We activated 14 tech creators across YouTube and Instagram Reels, focusing on demo-style content that showed the product in real home settings.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">4.2<span>x</span></div><div class="cs-metric-l">ROAS</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">2.1<span>M</span></div><div class="cs-metric-l">Total Reach</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">9.4<span>%</span></div><div class="cs-metric-l">Avg Engagement</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">14</div><div class="cs-metric-l">Creators</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-card reveal reveal-delay-1" style="border-radius:16px;">
+        <div class="cs-top teal" style="height:200px;">
+          <div class="cs-brand">Airo AI</div>
+          <span class="cs-badge">AI Startup</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">AI Productivity Tool · User Acquisition</div>
+          <h3 style="font-size:1.3rem;">0 to 8,000 signups in 30 days at ₹18/signup</h3>
+          <p>Airo AI needed users fast with a tight budget. We built a micro-influencer strategy targeting productivity, tech, and student creator communities — 22 creators, all under 100K followers, all high engagement.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">8K<span>+</span></div><div class="cs-metric-l">Signups</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">₹18</div><div class="cs-metric-l">Cost/Signup</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">22</div><div class="cs-metric-l">Creators</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">30</div><div class="cs-metric-l">Days</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-card reveal reveal-delay-2" style="border-radius:16px;">
+        <div class="cs-top indigo" style="height:200px;">
+          <div class="cs-brand">GadgetX</div>
+          <span class="cs-badge">Consumer Tech</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">Wearables · Retention & Loyalty</div>
+          <h3 style="font-size:1.3rem;">40% repeat purchase rate via creator trust</h3>
+          <p>GadgetX had great products but low customer retention. We designed a long-term creator content strategy mixing YouTube long-form reviews with short Instagram demos — building community trust that converted to repeat buyers.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">40<span>%</span></div><div class="cs-metric-l">Repeat Buy</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">3.8<span>x</span></div><div class="cs-metric-l">ROAS</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">1.4<span>M</span></div><div class="cs-metric-l">Views</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">+68<span>%</span></div><div class="cs-metric-l">LTV Increase</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-card reveal" style="border-radius:16px;">
+        <div class="cs-top" style="height:200px;background:linear-gradient(135deg,#1a1a2e,#16213e);">
+          <div class="cs-brand">StackBot</div>
+          <span class="cs-badge">AI Startup</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">Dev Tool · B2B Awareness</div>
+          <h3 style="font-size:1.3rem;">6,500 developer signups via LinkedIn & YouTube</h3>
+          <p>StackBot needed developer adoption. We partnered with coding YouTubers and LinkedIn tech creators to create tutorial-style content demonstrating the tool in real workflows. Developer trust was key — vanity metrics were irrelevant.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">6.5K</div><div class="cs-metric-l">Dev Signups</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">₹22</div><div class="cs-metric-l">Cost/Signup</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">11</div><div class="cs-metric-l">Creators</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">34<span>%</span></div><div class="cs-metric-l">Trial Conversion</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-card reveal reveal-delay-1" style="border-radius:16px;">
+        <div class="cs-top" style="height:200px;background:linear-gradient(135deg,#003366,#005599);">
+          <div class="cs-brand">Velox</div>
+          <span class="cs-badge">Tech & Gadgets</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">TWS Earbuds · Competitive Launch</div>
+          <h3 style="font-size:1.3rem;">Outsold 3 competitors in launch month</h3>
+          <p>Velox entered a crowded TWS market. We ran a 30-day multi-platform campaign with 19 audio and tech creators, combining comparison reviews with lifestyle content to position Velox as the premium budget option.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">5.1<span>x</span></div><div class="cs-metric-l">ROAS</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">3.4<span>M</span></div><div class="cs-metric-l">Reach</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">19</div><div class="cs-metric-l">Creators</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">#1</div><div class="cs-metric-l">Launch Sales</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cs-card reveal reveal-delay-2" style="border-radius:16px;">
+        <div class="cs-top" style="height:200px;background:linear-gradient(135deg,#0d2137,#1a4a6e);">
+          <div class="cs-brand">Lumiq</div>
+          <span class="cs-badge">AI Startup</span>
+        </div>
+        <div class="cs-body">
+          <div class="cs-niche">AI Writing Tool · College Market</div>
+          <h3 style="font-size:1.3rem;">12,000 student users acquired in 45 days</h3>
+          <p>Lumiq targeted college students in India with an AI writing assistant. We built a network of student and college creator partnerships across Instagram and YouTube Shorts — high volume, low cost, right audience.</p>
+          <div style="background:var(--bg2);border-radius:10px;padding:20px;margin-top:20px;">
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;">Campaign Results</div>
+            <div class="cs-metrics" style="flex-wrap:wrap;gap:16px;">
+              <div class="cs-metric"><div class="cs-metric-n">12K</div><div class="cs-metric-l">Users</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">₹11</div><div class="cs-metric-l">Cost/User</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">31</div><div class="cs-metric-l">Creators</div></div>
+              <div class="cs-metric"><div class="cs-metric-n">45</div><div class="cs-metric-l">Days</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="pricing-cta-bg">
+    <div class="pricing-cta-inner">
+      <div class="sec-label">Your Brand Next</div>
+      <h2 class="sec-title">Want Results Like These<br/>for Your Brand?</h2>
+      <p class="sec-sub">Book a free consultation. We'll show you exactly what a campaign would look like for your product.</p>
+      <a href="#" onclick="window.open('https://calendly.com/influgoo/30min', '_blank')" class="btn-white">Book Free Call →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== CONTACT PAGE ==================== -->
+<div id="page-contact" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">Book a Call</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">Let's Talk About<br/><em style="font-style:italic;color:var(--accent);">Your Campaign</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">Free 30-minute consultation. No obligations. We'll tell you exactly what we'd do for your brand.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>Fill the form and we'll respond within 4 hours. We'll get back to you within 4 hours.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div class="contact-item-text"><strong>Email</strong><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text"><strong>Location</strong>India (Serving brands nationwide)</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div class="contact-item-text"><strong>Response Time</strong>Within 4 business hours</div>
+          </div>
+        </div>
+        <div style="margin-top:40px;padding:24px;background:var(--bg2);border-radius:14px;border:1px solid var(--border);">
+          <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;">On the Call We'll Cover</div>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:10px;">
+            <li style="font-size:0.85rem;color:var(--text);display:flex;gap:10px;"><span style="color:var(--accent);font-weight:700;">→</span> Your product, audience, and goals</li>
+            <li style="font-size:0.85rem;color:var(--text);display:flex;gap:10px;"><span style="color:var(--accent);font-weight:700;">→</span> A rough campaign strategy for your brand</li>
+            <li style="font-size:0.85rem;color:var(--text);display:flex;gap:10px;"><span style="color:var(--accent);font-weight:700;">→</span> Expected results and realistic timelines</li>
+            <li style="font-size:0.85rem;color:var(--text);display:flex;gap:10px;"><span style="color:var(--accent);font-weight:700;">→</span> Pricing and next steps if you want to proceed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-form" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 40px;background:var(--bg2);border-radius:24px;border:1px solid var(--border);">
+        <div style="font-size:3rem;margin-bottom:24px;">📅</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;color:var(--navy);margin-bottom:12px;">Book Your Free 30-Min Call</div>
+        <p style="font-size:0.95rem;color:var(--muted);max-width:380px;line-height:1.75;margin-bottom:32px;">Pick a time that works for you. We will confirm instantly. No sales pressure — just a real conversation about your brand.</p>
+        <a href="https://calendly.com/influgoo/30min" target="_blank" class="btn-primary" style="font-size:1.05rem;padding:18px 48px;display:inline-flex;align-items:center;gap:10px;text-decoration:none;">
+          Book Free Call →
+        </a>
+        <p style="margin-top:20px;font-size:0.8rem;color:var(--muted);">or email us at <a href="mailto:influgoo@gmail.com" style="color:var(--accent);font-weight:600;">influgoo@gmail.com</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+// FAQ TOGGLE
+function toggleFaq(btn) {
+  const item = btn.parentElement;
+  const answer = item.querySelector('.faq-a');
+  const icon = item.querySelector('.faq-icon');
+  const isOpen = item.classList.contains('open');
+
+  // Close all open items smoothly
+  document.querySelectorAll('.faq-item.open').forEach(openItem => {
+    if (openItem !== item) {
+      const a = openItem.querySelector('.faq-a');
+      const ic = openItem.querySelector('.faq-icon');
+      openItem.classList.remove('open');
+      a.style.maxHeight = '0';
+      a.style.paddingBottom = '0';
+      a.style.opacity = '0';
+      ic.style.transform = 'rotate(0deg)';
+      ic.style.background = 'var(--bg3)';
+      ic.style.color = 'var(--navy)';
+    }
+  });
+
+  if (!isOpen) {
+    item.classList.add('open');
+    answer.style.maxHeight = answer.scrollHeight + 40 + 'px';
+    answer.style.paddingBottom = '20px';
+    answer.style.opacity = '1';
+    icon.style.transform = 'rotate(45deg)';
+    icon.style.background = 'var(--navy)';
+    icon.style.color = 'white';
+  } else {
+    item.classList.remove('open');
+    answer.style.maxHeight = '0';
+    answer.style.paddingBottom = '0';
+    answer.style.opacity = '0';
+    icon.style.transform = 'rotate(0deg)';
+    icon.style.background = 'var(--bg3)';
+    icon.style.color = 'var(--navy)';
+  }
+}
+
+
+// ARTICLES DATA
+const articles = {
+  1: {
+    tag: 'Strategy', readTime: '5 min read',
+    title: 'How D2C Brands in India 3x Their ROAS with Influencer Marketing',
+    intro: 'Most D2C brands in India treat influencer marketing like a one-time experiment — pick a few influencers, pay them, hope for the best. The brands that consistently 3x their ROAS treat it like a system.',
+    sections: [
+      { heading: 'Step 1: Stop Choosing by Follower Count', body: 'The single biggest mistake is selecting creators based on follower numbers. A creator with 800K followers in a generic niche will almost always underperform a 40K follower creator who speaks exclusively to your exact customer. Engagement rate, audience demographics, and content quality matter far more than raw reach. Before any campaign, build a creator scorecard: engagement rate (should be above 4%), audience age and location match, niche relevance, and past brand performance.' },
+      { heading: 'Step 2: Write a Real Brief', body: 'Most brands send a product and say "do a review." That produces generic content. High-converting briefs include: the single most important message to communicate, the one action you want viewers to take, 2-3 talking points, and what NOT to say. Give creators creative freedom within these guardrails — forced scripts kill authenticity, and authenticity is what converts.' },
+      { heading: 'Step 3: Use a Cascade Content Strategy', body: 'The brands hitting 3x ROAS are not running one piece of content per creator. They are building a cascade: one long-form YouTube review (trust-building), two or three Instagram Reels (reach and awareness), and follow-up Stories with swipe-up links (conversion). Each format serves a different stage of the purchase funnel.' },
+      { heading: 'Step 4: Track the Right Metrics', body: 'ROAS is your north star, but you need leading indicators. Track: click-through rate from creator content, promo code redemption rate per creator, cost per acquisition by creator and platform, and repeat purchase rate among customers who came through creator channels. Brands that track these numbers can double down on what works and cut what does not within the first campaign.' },
+      { heading: 'Step 5: The Post-Campaign Move Most Brands Miss', body: 'After your campaign ends, the content does not stop working. Repurpose top-performing creator content into paid ads (UGC ads consistently outperform brand-produced creatives by 30-50%), post it on your own channels, and share it with your email list. This extends the ROI of every rupee you spent on the campaign without additional creator fees.' }
+    ]
+  },
+  2: {
+    tag: 'AI & Tech', readTime: '4 min read',
+    title: 'Why AI Startups Need Influencer Marketing More Than Paid Ads',
+    intro: 'AI products face a unique trust problem. They are powerful, but abstract. Paid ads can show features — but they cannot show a real person using your tool and having their workflow transformed. That is what influencer content does.',
+    sections: [
+      { heading: 'The Trust Gap in AI Products', body: 'When someone sees a paid ad for an AI writing tool, their first instinct is scepticism. "Does it actually work? Is it just hype?" Creator content solves this because viewers trust the creator, and that trust transfers to the product. A 10-minute YouTube video of a developer or content creator genuinely using your AI tool and reacting in real time is worth more than any ad creative you can produce.' },
+      { heading: 'Creators Explain What Ads Cannot', body: 'AI products often need explanation. You cannot fit a nuanced use case into a 15-second ad. But a creator can walk through a real workflow, show the before and after, handle objections in real time, and answer questions in the comments. This education layer is critical for AI products — it collapses the gap between "I have heard of this" and "I understand why I need this."' },
+      { heading: 'The Right Creator Types for AI Products', body: 'Not all creators work for AI. The best performers are: productivity creators (they already have an audience looking for tools), developers and technical creators (high credibility for AI tools), and niche professionals (a lawyer showing how an AI legal tool works has massive conversion power). Lifestyle creators almost never work for AI products — the audience overlap is too weak.' },
+      { heading: 'Cost Per Acquisition Comparison', body: 'In our campaigns, AI startup brands running influencer marketing see a cost per signup of ₹11–22 for well-targeted micro-influencer campaigns. Equivalent Google and Meta paid campaigns for the same products typically see ₹45–80+ per signup. The reason is simple: influencer audiences are warm and pre-qualified, paid audiences are cold.' },
+      { heading: 'The LinkedIn Multiplier', body: 'For AI products, LinkedIn is underutilised. After running an influencer campaign on YouTube or Instagram, repurposing that content for LinkedIn reaches decision-makers — CTOs, founders, and team leads who actually purchase software. This is why we include LinkedIn automation with every Influgoo campaign: it automatically extends your AI product&#39;s reach to the exact people with budget to buy.' }
+    ]
+  },
+  3: {
+    tag: 'Creator Guide', readTime: '6 min read',
+    title: 'How to Spot Fake Influencers Before Wasting Your Budget',
+    intro: 'The influencer fraud market in India is enormous. Studies estimate that up to 15% of influencer engagement in South Asia is fake. Here is the practical checklist to protect your budget.',
+    sections: [
+      { heading: 'Red Flag 1: Follower Spikes', body: 'Open any third-party tool like Social Blade and look at the follower growth graph. A legitimate creator grows gradually with occasional spikes from viral content. Fake accounts show sudden jumps of 10K–100K followers followed by flatlines. These are purchased followers. If you see two or three unexplained spikes in the past 12 months, treat it as a red flag.' },
+      { heading: 'Red Flag 2: Engagement Rate vs Follower Count Mismatch', body: 'Average engagement rates by follower tier in India: under 10K followers (5–8%), 10K–100K (2–5%), 100K–500K (1–3%), 500K+ (0.5–2%). If a creator with 200K followers is getting 15% engagement, something is wrong — either they have a very niche audience (verify this) or they are using engagement pods or fake likes.' },
+      { heading: 'Red Flag 3: Comment Quality', body: 'Scroll through at least 20–30 comments on recent posts. Look for: generic praise with no specific reference to the content ("Great post!" "Love this!"), comments from accounts with no profile photos or posts, repeated comments from the same accounts, and comments in unrelated languages. Real audiences leave specific, contextual comments.' },
+      { heading: 'Red Flag 4: Audience Demographics Mismatch', body: 'Ask creators for an Instagram Insights or YouTube Analytics screenshot showing audience location and age. If a creator claims to reach Indian tech buyers but 60% of their audience is from Brazil or the Philippines — that audience was purchased. Always verify geography before signing any deal.' },
+      { heading: 'Red Flag 5: Suspiciously Low Rates', body: 'If a creator with 200K followers quotes you ₹2,000 for a Reel, ask why. Legitimate creators with real audiences know their value. Extremely low rates often indicate the creator knows their engagement is fake and cannot command market rates. Use this as a screening signal, not a buying opportunity.' },
+      { heading: 'The Safe Vetting Process', body: 'Before any deal: run the profile through HypeAuditor or Modash for an automated fraud score, manually review the last 10 posts for authentic engagement, ask for an audience insights screenshot, check if their follower count matches their engagement (use the benchmarks above), and Google their name to check if they have been featured in any legitimate media or brand campaigns.' }
+    ]
+  },
+  4: {
+    tag: 'Platforms', readTime: '7 min read',
+    title: 'Instagram Reels vs YouTube Reviews: Which Drives More Sales for Tech Brands?',
+    intro: 'This is one of the most common questions we get from tech and gadget D2C brands. The honest answer is: they serve different stages of the funnel, and the best campaigns use both. Here is the full breakdown.',
+    sections: [
+      { heading: 'What Instagram Reels Does Well', body: 'Reels are discovery and emotion. They stop the scroll, create awareness, and drive aspiration. For tech products, the best-performing Reels show the product in action in under 30 seconds — unboxing moments, a single impressive feature demo, or a problem-solution format. Reels are top-of-funnel. They do not close sales, but they plant the seed and drive profile visits and website clicks.' },
+      { heading: 'What YouTube Reviews Do Well', body: 'YouTube is where purchase decisions happen. A 10–15 minute in-depth review that covers specs, real-world use cases, comparisons to competitors, and honest pros and cons is the single most powerful sales tool for tech products. Viewers who watch 70%+ of a review have extremely high purchase intent. YouTube content also has a long shelf life — a review posted today will still generate sales 12 months later.' },
+      { heading: 'The Data: Conversion Rates by Platform', body: 'In our tech brand campaigns, YouTube reviews produce conversion rates of 3–6% from view to website visit, and 1–2% from view to purchase. Instagram Reels produce 0.5–1.5% click-through rates but much higher volume. The combined approach — Reels for reach, YouTube for conversion — consistently outperforms either platform alone by 40–60% on overall ROAS.' },
+      { heading: 'Budget Allocation Recommendation', body: 'For a ₹40,000 campaign budget: allocate 60% (₹24,000) to YouTube (one or two detailed reviews), and 40% (₹16,000) to Instagram Reels (three to five short-form creators). This balance maximises both awareness and conversion. For brands with under ₹15,000, focus entirely on YouTube — one great review outperforms five mediocre Reels.' },
+      { heading: 'Adding LinkedIn for B2B Tech Products', body: 'If your tech product has any B2B angle — tools for teams, productivity software, developer tools — add LinkedIn to the mix. Repurpose your YouTube review content into LinkedIn posts and articles targeting tech professionals. Cost per click on LinkedIn is higher, but the audience quality and purchase authority is significantly stronger for B2B products.' }
+    ]
+  },
+  5: {
+    tag: 'Budget', readTime: '5 min read',
+    title: 'How to Run a High-ROI Influencer Campaign on a ₹15,000 Budget',
+    intro: 'Most brands think influencer marketing requires a large budget. It does not. With ₹15,000 and the right strategy, you can generate meaningful results — especially in the tech and AI niches where micro-influencers have highly engaged audiences.',
+    sections: [
+      { heading: 'The Micro-Influencer Advantage', body: 'Creators with 10K–50K followers in a specific niche consistently outperform large influencers on cost per acquisition. Their audiences are highly engaged, trust them deeply, and follow them specifically for their niche content. For a tech product, a creator with 20K tech-focused followers will almost always outperform a celebrity with 2M general followers.' },
+      { heading: 'Budget Allocation for ₹15,000', body: 'Recommended split: spend ₹10,000–12,000 on one to two nano or micro-influencer collaborations (one YouTube Shorts video or Instagram Reel each), keep ₹2,000–3,000 for boosting the best-performing content as a paid post on Instagram. This combination gives you organic reach plus a controlled paid push on the content that has already proven it works.' },
+      { heading: 'How to Find the Right Creators at This Budget', body: 'Search hashtags related to your product category on Instagram and YouTube. Look for creators with 5K–30K followers who post consistently and have strong engagement. Reach out via DM or email with a clear, specific brief. At this budget tier, many creators will collaborate in exchange for the product plus a small fee — especially if your product is genuinely interesting to their audience.' },
+      { heading: 'The Brief is Everything at a Small Budget', body: 'With a limited budget you cannot afford mediocre content. Invest time in writing a strong brief: the single key message, the one desired action, three key product benefits, and a clear call to action with your promo code or link. The brief is your biggest leverage point — better brief means better content means better results, at any budget level.' },
+      { heading: 'Measuring Success at ₹15,000', body: 'Set realistic benchmarks before the campaign. For a ₹15,000 campaign targeting a ₹1,000 product, a 2x ROAS means ₹30,000 in attributed revenue. Track this via a unique promo code or UTM-tagged link for each creator. After the campaign, analyse which creator drove more revenue and double down on that profile type in your next campaign.' }
+    ]
+  },
+  6: {
+    tag: 'Targeting', readTime: '6 min read',
+    title: 'Micro vs Macro Influencers: The Truth About Which One Converts for D2C',
+    intro: 'The influencer marketing industry has created a myth: bigger is better. The data says otherwise. Here is a clear, honest comparison of micro and macro influencers for D2C brands.',
+    sections: [
+      { heading: 'Defining the Tiers', body: 'Nano: under 10K followers. Micro: 10K–100K. Mid-tier: 100K–500K. Macro: 500K–1M. Mega: 1M+. Each tier has distinct characteristics in terms of engagement, audience trust, content quality, and cost. For D2C brands, the sweet spot is almost always micro (10K–100K) for conversion campaigns and mid-tier for awareness campaigns.' },
+      { heading: 'Engagement Rate Reality', body: 'Average engagement rates in India by tier: Nano (6–10%), Micro (3–6%), Mid-tier (1.5–3%), Macro (0.8–1.5%), Mega (0.3–0.8%). The drop-off is steep. A micro-influencer with 50K followers and 5% engagement has 2,500 engaged users per post. A macro with 600K followers and 1% engagement has 6,000 — but at three to five times the cost. The cost per engaged user heavily favours micro.' },
+      { heading: 'Conversion Rate Comparison', body: 'Micro-influencers consistently produce higher conversion rates because their audiences follow them for a specific niche interest, they are seen as peers rather than celebrities, and their recommendations feel personal rather than sponsored. For tech products, micro-influencer campaigns in our network produce 1.5–2.5x higher conversion rates than equivalent macro campaigns.' },
+      { heading: 'When Macro Influencers Are Worth It', body: 'Macro and mega influencers make sense for: brand awareness at launch when you need maximum reach fast, brand credibility (association with a known name builds legitimacy), and PR value (macro coverage generates press mentions and secondary shares). They are not efficient for direct conversion campaigns on limited budgets.' },
+      { heading: 'The Recommended Approach', body: 'For most Indian D2C brands: start with three to five micro-influencers to test messaging and find what converts, then scale budget into the creators and messaging that performed best, and add one mid-tier creator for reach once you have a proven converting creative. This staggered approach reduces risk and ensures you are scaling what works, not guessing at volume.' }
+    ]
+  },
+  7: {
+    tag: 'Analytics', readTime: '8 min read',
+    title: 'The 7 Influencer Campaign Metrics That Actually Matter (And 5 That Do Not)',
+    intro: 'Influencer marketing reports are full of impressive-looking numbers that have nothing to do with your business. Here is how to separate signal from noise.',
+    sections: [
+      { heading: 'The 7 Metrics That Matter', body: '1. Cost Per Acquisition (CPA): total campaign spend divided by verified new customers. The ultimate efficiency metric. 2. ROAS: revenue attributed to the campaign divided by campaign cost. Target 2x minimum, 3x is good, 4x+ is excellent. 3. Promo Code / UTM Link Redemption Rate: the cleanest attribution signal you have. 4. Click-Through Rate from creator content to your website. 5. Conversion Rate on the landing page visitors from creator traffic arrive at. 6. Average Order Value of customers acquired via creator channels vs other channels. 7. Repeat Purchase Rate of creator-acquired customers over 90 days.' },
+      { heading: 'The 5 Metrics That Do Not Matter (Alone)', body: '1. Total views — views without clicks or purchases are noise. 2. Likes — easily gamed and weakly correlated with purchase intent. 3. Follower count of the creator — already covered above. 4. Impressions — reach is vanity without downstream action. 5. Comments count — without quality analysis, comment volume tells you nothing.' },
+      { heading: 'Setting Up Proper Attribution', body: 'Before your campaign launches: create a unique promo code for each creator, build a UTM-tagged landing page URL for each creator, and set up Google Analytics goals for the desired conversion action. This gives you per-creator attribution so you know exactly which creator drove which revenue.' },
+      { heading: 'Benchmarks for Tech and AI Brands in India', body: 'Based on our campaign data: good CPA is under ₹300 for a sub-₹2,000 product. Good ROAS is 2.5x for a first campaign, 3.5x+ for an optimised campaign. Good CTR from Instagram is 1–2%, from YouTube is 3–5%. Good promo code redemption is 2–4% of total views.' },
+      { heading: 'The Post-Campaign Analysis Framework', body: 'After every campaign, run this analysis: rank creators by CPA (not by views), identify the top one or two performers, analyse what they did differently in content and delivery, document the winning format and messaging, apply this to the brief for the next campaign. Brands that follow this compounding approach see ROAS improve 20–40% between campaigns.' }
+    ]
+  },
+  8: {
+    tag: 'Launch', readTime: '9 min read',
+    title: 'The 7-Day Influencer Campaign Launch Playbook for New D2C Brands',
+    intro: 'You can go from zero to live campaign in 7 days. Here is the exact timeline, with what to do each day.',
+    sections: [
+      { heading: 'Day 1: Discovery and Strategy', body: 'Define your single campaign objective (awareness, signups, or purchases — pick one). Write your ideal customer profile in one paragraph. Set your budget and decide on platforms. Identify three to five competitors and look at which creators they have worked with. This gives you a starting list and proof of concept.' },
+      { heading: 'Day 2: Creator Research', body: 'Search relevant hashtags and keywords on Instagram and YouTube. Build a list of 15–20 potential creators. Filter by: engagement rate above 3%, audience location predominantly India, niche match to your product, no obvious fake follower red flags. You should end Day 2 with a shortlist of 8–10 qualified creators.' },
+      { heading: 'Day 3: Outreach', body: 'Send personalised DMs or emails to your shortlist. Template: "Hi [Name], I love your content on [specific topic]. I am building [product] and think your audience would genuinely find it useful. Would you be interested in a paid collaboration? I have a brief and budget ready." Personalisation matters — mass outreach gets ignored.' },
+      { heading: 'Day 4: Brief Creation and Negotiation', body: 'As replies come in, send your campaign brief and negotiate rates. Brief must include: product description in one sentence, the one key message to communicate, the one desired viewer action, three talking points, and what to avoid. Agree on deliverables, timeline, and usage rights. Get confirmation in writing.' },
+      { heading: 'Day 5: Content Production Begins', body: 'Send products to confirmed creators. Follow up to confirm receipt. Answer any brief questions quickly. Set a content submission deadline of Day 6 end of day. Most creators work fast once the product arrives — your brief quality determines the content quality at this stage.' },
+      { heading: 'Day 6: Content Review and Approval', body: 'Review submitted content against your brief. Check: key message is present, call to action is clear, no inaccurate product claims, brand is represented well. Provide specific feedback if revisions are needed. Approve final content and confirm posting date and time with each creator.' },
+      { heading: 'Day 7: Launch and Monitor', body: 'Campaign goes live. Monitor in real time: check that all posts are live with correct links and codes, screenshot all posts for your records, start tracking clicks and code redemptions immediately. Engage with comments in the first 2 hours — early engagement boosts algorithmic reach. By end of Day 7, you have a live campaign generating real data.' }
+    ]
+  },
+  9: {
+    tag: 'Mistakes', readTime: '7 min read',
+    title: '10 Influencer Marketing Mistakes Indian D2C Brands Keep Making',
+    intro: 'After running dozens of campaigns, we see the same mistakes repeatedly. Here they are, with how to fix each one.',
+    sections: [
+      { heading: 'Mistakes 1–3: Selection Errors', body: '1. Choosing by follower count — already covered. Fix: use engagement rate and niche match. 2. Not vetting for fake followers — fix: run every creator through HypeAuditor before paying. 3. Picking creators your team likes personally — fix: pick creators your customer follows, not you.' },
+      { heading: 'Mistakes 4–6: Brief and Process Errors', body: '4. Sending no brief or a vague brief — fix: write a structured brief with one clear message and one desired action. 5. Approving content without checking it against the brief — fix: create a simple approval checklist. 6. Giving creators a script to read word for word — fix: give guardrails, not a script. Authenticity converts.' },
+      { heading: 'Mistakes 7–8: Measurement Errors', body: '7. Not setting up tracking before the campaign starts — fix: create promo codes and UTM links before Day 1. 8. Measuring success by views alone — fix: measure CPA and ROAS as the primary KPIs from the start.' },
+      { heading: 'Mistakes 9–10: Strategy Errors', body: '9. Treating influencer marketing as a one-off experiment instead of a channel — fix: commit to at least three campaigns before judging the channel. Optimisation between campaigns compounds results. 10. Not repurposing creator content — fix: every piece of creator content should become an organic post, a paid ad, and an email asset. You paid for it once — use it everywhere.' }
+    ]
+  },
+  10: {
+    tag: 'LinkedIn', readTime: '5 min read',
+    title: 'How to Use LinkedIn Automation to Extend Your Influencer Campaign Reach',
+    intro: 'Most brands stop their influencer campaign at Instagram and YouTube. LinkedIn is almost always ignored, even though it reaches exactly the decision-makers and professional buyers who have real purchasing power.',
+    sections: [
+      { heading: 'Why LinkedIn is Underutilised for D2C', body: 'LinkedIn has 100M+ users in India, with a heavy concentration of founders, managers, and tech professionals. For AI products, SaaS tools, productivity apps, and premium gadgets — this is your buyer. Yet almost no D2C brand systematically uses LinkedIn as part of their influencer strategy. This creates a significant opportunity for early movers.' },
+      { heading: 'The Repurposing Framework', body: 'You do not need new content for LinkedIn. Take your best-performing YouTube review or Instagram Reel, extract the key insights and product highlights, and rewrite them as a LinkedIn post with a professional angle. Example: a YouTube review of your AI tool becomes a LinkedIn post titled "How our team reduced report writing time by 60% using AI." Same product, different angle, different audience.' },
+      { heading: 'LinkedIn Automation: What It Does', body: 'LinkedIn automation tools (like the one we include free with every Influgoo campaign) connect to your repurposed content library and auto-schedule posts at optimal times for professional audience engagement — typically Tuesday to Thursday, 8–10am and 12–2pm IST. This means your campaign content continues working 24/7 without any manual effort after the initial setup.' },
+      { heading: 'Measuring LinkedIn Campaign Performance', body: 'LinkedIn provides strong analytics: impressions, click-through rates, follower growth, and — most importantly — the job titles and industries of people who engaged with your content. This demographic data is invaluable for refining your buyer persona and understanding which segments are most interested in your product.' },
+      { heading: 'Getting Started', body: 'The simplest way to start: take your three best-performing pieces of influencer content from your current campaign, rewrite each as a 200–300 word LinkedIn post with a clear value proposition and CTA, schedule one per week, and track engagement by job title and company size. After four weeks, you will have clear data on whether LinkedIn is a viable channel for your product — at zero additional creator cost.' }
+    ]
+  }
+};
+
+function openArticle(id) {
+  const a = articles[id];
+  if (!a) return;
+  const sectionsHtml = a.sections.map(s => `
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;color:var(--navy);margin:40px 0 14px;letter-spacing:-0.02em;">${s.heading}</h2>
+    <p style="font-size:0.95rem;color:#444;line-height:1.85;">${s.body}</p>
+  `).join('');
+  document.getElementById('articleContent').innerHTML = `
+    <div style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;">${a.tag} · ${a.readTime}</div>
+    <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);font-weight:700;color:var(--navy);line-height:1.1;letter-spacing:-0.03em;margin-bottom:24px;">${a.title}</h1>
+    <p style="font-size:1.05rem;color:var(--muted);line-height:1.8;margin-bottom:8px;padding-bottom:32px;border-bottom:1px solid var(--border);font-style:italic;">${a.intro}</p>
+    ${sectionsHtml}
+  `;
+  showPage('article');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+
+// EXIT INTENT
+let exitShown = false;
+document.addEventListener('mouseleave', (e) => {
+  if (e.clientY < 10 && !exitShown) {
+    exitShown = true;
+    document.getElementById('exitPopup').classList.add('show');
+  }
+});
+setTimeout(() => {
+  if (!exitShown) {
+    exitShown = true;
+    document.getElementById('exitPopup').classList.add('show');
+  }
+}, 40000);
+function closeExit() {
+  document.getElementById('exitPopup').classList.remove('show');
+}
+
+// PAGE NAVIGATION
+function showPage(id, pushState = true) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  const target = document.getElementById('page-' + id);
+  if (!target) return;
+  target.classList.add('active');
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.classList.remove('page-active');
+    if (a.id === 'nav-' + id) a.classList.add('page-active');
+  });
+  setTimeout(() => initReveal(), 100);
+  if (pushState) {
+    history.pushState({ page: id }, '', '#' + id);
+  }
+}
+
+// Handle browser back/forward buttons
+// Handle browser back/forward buttons
+window.addEventListener('popstate', (e) => {
+  const id = e.state ? e.state.page : 'home';
+  showPage(id, false);
+});
+
+// On first load, set initial history state
+window.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash.replace('#', '');
+  const validPages = ['home','services','howitworks','casestudies','blog','faq','contact','article'];
+  const startPage = validPages.includes(hash) ? hash : 'home';
+  history.replaceState({ page: startPage }, '', '#' + startPage);
+  showPage(startPage, false);
+});
+
+// MOBILE MENU
+function toggleMobile() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// SCROLL NAV SHADOW
+window.addEventListener('scroll', () => {
+  document.getElementById('mainNav').classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// SCROLL REVEAL
+function initReveal() {
+  const reveals = document.querySelectorAll('.reveal:not(.visible)');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => observer.observe(el));
+}
+initReveal();
+
+// FORM SUBMIT
+function handleSubmit(btn) {
+  btn.innerHTML = '<span>✓ Submitted! We will be in touch soon.</span>';
+  btn.style.background = '#16a34a';
+  btn.disabled = true;
+}
+
+// FAQ PAGE GRID RESPONSIVE
+const faqPageGrid = document.querySelector('.faq-page-grid');
+function handleFaqGrid(e) {
+  if (faqPageGrid) faqPageGrid.style.gridTemplateColumns = e.matches ? '1fr' : '1fr 1fr';
+}
+if (faqPageGrid) { mediaQuery.addEventListener('change', handleFaqGrid); handleFaqGrid(mediaQuery); }
+// EXPECT GRID RESPONSIVE
+const expectGrid = document.querySelector('.expect-grid');
+function handleExpectGrid(e) {
+  if (expectGrid) {
+    expectGrid.style.gridTemplateColumns = e.matches ? '1fr 1fr' : 'repeat(4,1fr)';
+  }
+}
+if (expectGrid) {
+  mediaQuery.addEventListener('change', handleExpectGrid);
+  handleExpectGrid(mediaQuery);
+}
+// SERVICE DETAIL GRID - RESPONSIVE
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+function handleResponsive(e) {
+  document.querySelectorAll('.service-detail-grid, .cs-full-grid').forEach(g => {
+    if (e.matches) g.style.gridTemplateColumns = '1fr';
+    else {
+      if (g.classList.contains('service-detail-grid')) g.style.gridTemplateColumns = '1fr 1fr';
+      if (g.classList.contains('cs-full-grid')) g.style.gridTemplateColumns = 'repeat(3,1fr)';
+    }
+  });
+}
+mediaQuery.addEventListener('change', handleResponsive);
+handleResponsive(mediaQuery);
+</script>
+
+
+
+<!-- ==================== BLOG PAGE ==================== -->
+<div id="page-blog" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">Blog</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">Influencer Marketing<br/><em style="font-style:italic;color:var(--accent);">Insights & Strategy</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">Real research, practical guides, and honest strategy for D2C brands in India. No fluff.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="blog-grid" style="grid-template-columns:repeat(2,1fr);">
+
+      <!-- Article 1 -->
+      <div class="blog-card reveal" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(1)">
+        <div class="blog-img bg1" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;">📈</div>
+        <div class="blog-body">
+          <span class="blog-tag">Strategy</span>
+          <h3>How D2C Brands in India 3x Their ROAS with Influencer Marketing</h3>
+          <p>The exact playbook top Indian D2C brands use — creator selection, brief structure, and the post-campaign moves that drive repeat purchases.</p>
+          <div class="blog-meta">5 min read · Strategy</div>
+        </div>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="blog-card reveal reveal-delay-1" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(2)">
+        <div class="blog-img bg2" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;">🤖</div>
+        <div class="blog-body">
+          <span class="blog-tag">AI & Tech</span>
+          <h3>Why AI Startups Need Influencer Marketing More Than Paid Ads</h3>
+          <p>Paid ads explain features. Creators build trust. Here is why AI products — especially SaaS and productivity tools — convert better through influencer content.</p>
+          <div class="blog-meta">4 min read · AI Marketing</div>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="blog-card reveal" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(3)">
+        <div class="blog-img bg3" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;">🔍</div>
+        <div class="blog-body">
+          <span class="blog-tag">Creator Guide</span>
+          <h3>How to Spot Fake Influencers Before Wasting Your Budget</h3>
+          <p>Bought followers, ghost audiences, inflated engagement — a practical checklist to detect fraud before you sign any deal or transfer any payment.</p>
+          <div class="blog-meta">6 min read · Creator Vetting</div>
+        </div>
+      </div>
+
+      <!-- Article 4 -->
+      <div class="blog-card reveal reveal-delay-1" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(4)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#fce7f3,#fbcfe8);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">📱</div>
+        <div class="blog-body">
+          <span class="blog-tag">Platforms</span>
+          <h3>Instagram Reels vs YouTube Reviews: Which Drives More Sales for Tech Brands?</h3>
+          <p>A data-backed breakdown of which platform delivers better ROI for tech and gadget D2C brands — and when to use both together.</p>
+          <div class="blog-meta">7 min read · Platform Strategy</div>
+        </div>
+      </div>
+
+      <!-- Article 5 -->
+      <div class="blog-card reveal" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(5)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#e0f2fe,#bae6fd);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">💰</div>
+        <div class="blog-body">
+          <span class="blog-tag">Budget</span>
+          <h3>How to Run a High-ROI Influencer Campaign on a ₹15,000 Budget</h3>
+          <p>Small budget does not mean small results. The micro-influencer strategy that gets D2C brands real traction without burning money on big names.</p>
+          <div class="blog-meta">5 min read · Budget Strategy</div>
+        </div>
+      </div>
+
+      <!-- Article 6 -->
+      <div class="blog-card reveal reveal-delay-1" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(6)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#fef3c7,#fde68a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🎯</div>
+        <div class="blog-body">
+          <span class="blog-tag">Targeting</span>
+          <h3>Micro vs Macro Influencers: The Truth About Which One Converts for D2C</h3>
+          <p>Follower count is vanity. Here is the real data on engagement rates, cost per acquisition, and conversion rates across influencer tiers in India.</p>
+          <div class="blog-meta">6 min read · Creator Selection</div>
+        </div>
+      </div>
+
+      <!-- Article 7 -->
+      <div class="blog-card reveal" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(7)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#d1fae5,#a7f3d0);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">📊</div>
+        <div class="blog-body">
+          <span class="blog-tag">Analytics</span>
+          <h3>The 7 Influencer Campaign Metrics That Actually Matter (And 5 That Don't)</h3>
+          <p>Views and likes are not your business metrics. Here is the framework to measure influencer campaign performance in a way that connects to actual revenue.</p>
+          <div class="blog-meta">8 min read · Analytics</div>
+        </div>
+      </div>
+
+      <!-- Article 8 -->
+      <div class="blog-card reveal reveal-delay-1" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(8)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#ede9fe,#ddd6fe);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🚀</div>
+        <div class="blog-body">
+          <span class="blog-tag">Launch</span>
+          <h3>The 7-Day Influencer Campaign Launch Playbook for New D2C Brands</h3>
+          <p>A step-by-step timeline to go from zero to live campaign in one week — including brief templates, creator outreach scripts, and approval workflows.</p>
+          <div class="blog-meta">9 min read · Playbook</div>
+        </div>
+      </div>
+
+      <!-- Article 9 -->
+      <div class="blog-card reveal" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(9)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#fee2e2,#fecaca);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">⚠️</div>
+        <div class="blog-body">
+          <span class="blog-tag">Mistakes</span>
+          <h3>10 Influencer Marketing Mistakes Indian D2C Brands Keep Making</h3>
+          <p>From choosing influencers by follower count to skipping content briefs — the most common and costly mistakes, and exactly how to avoid each one.</p>
+          <div class="blog-meta">7 min read · Common Mistakes</div>
+        </div>
+      </div>
+
+      <!-- Article 10 -->
+      <div class="blog-card reveal reveal-delay-1" style="display:grid;grid-template-columns:200px 1fr;border-radius:16px;" onclick="openArticle(10)">
+        <div class="blog-img" style="height:100%;min-height:160px;border-radius:16px 0 0 16px;background:linear-gradient(135deg,#ecfdf5,#d1fae5);display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🔗</div>
+        <div class="blog-body">
+          <span class="blog-tag">LinkedIn</span>
+          <h3>How to Use LinkedIn Automation to Extend Your Influencer Campaign Reach</h3>
+          <p>Most brands stop at Instagram and YouTube. Here is how to automatically repurpose your influencer content for LinkedIn and reach decision-makers and B2B buyers at zero extra cost.</p>
+          <div class="blog-meta">5 min read · LinkedIn Strategy</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="pricing-cta-bg">
+    <div class="pricing-cta-inner">
+      <div class="sec-label">Ready to Start?</div>
+      <h2 class="sec-title">Put the Strategy Into Action</h2>
+      <p class="sec-sub">Book a free call and we will map out a campaign for your brand based on everything you just read.</p>
+      <a href="https://calendly.com/influgoo/30min" target="_blank" class="btn-white">Book Free Consultation →</a>
+    </div>
+  </section>
+
+    <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== ARTICLE READER ==================== -->
+<div id="page-article" class="page">
+  <div style="padding:100px 6% 0;">
+    <button onclick="showPage('blog')" style="background:none;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-family:'Manrope',sans-serif;font-size:0.85rem;font-weight:600;margin-bottom:40px;padding:0;">
+      ← Back to Blog
+    </button>
+    <div id="articleContent" style="max-width:720px;margin:0 auto;"></div>
+  </div>
+  <section style="padding-top:0;padding-bottom:80px;">
+    <div style="max-width:720px;margin:0 auto;">
+      <div style="background:var(--bg3);border-radius:16px;padding:40px;text-align:center;margin-top:60px;">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;color:var(--navy);margin-bottom:8px;">Ready to Apply This?</h3>
+        <p style="font-size:0.88rem;color:var(--muted);margin-bottom:24px;">Book a free 30-min call and we will show you exactly what this looks like for your brand.</p>
+        <a href="https://calendly.com/influgoo/30min" target="_blank" class="btn-primary" style="display:inline-flex;">Book Free Call →</a>
+      </div>
+    </div>
+  </section>
+    <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo</span></a>
+        <p>India's influencer marketing agency for D2C brands in AI, tech, and gadgets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="showPage('home')">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('services')">Services</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('howitworks')">How It Works</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('casestudies')">Case Studies</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('blog')">Blog</a></li>
+          <li><a href="javascript:void(0)" onclick="showPage('faq')">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li>Influencer Outreach</li>
+          <li>Campaign Management</li>
+          <li>Creator Verification</li>
+          <li>Performance Reports</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a></li>
+          <li><a href="https://calendly.com/influgoo/30min" target="_blank">Book a Call</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Influgoo 2025 · Performance > Vanity</p>
+    </div>
+  </footer>
+</div>
+
+<!-- ==================== FAQ PAGE ==================== -->
+<div id="page-faq" class="page">
+  <div style="padding:140px 6% 80px;background:linear-gradient(160deg,#fff 0%,#f0f4ff 100%);position:relative;overflow:hidden;">
+    <div class="hero-grid-bg"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="sec-label">FAQ</div>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:700;letter-spacing:-0.03em;color:var(--navy);line-height:1.0;max-width:700px;margin-bottom:20px;">Questions We Get<br/><em style="font-style:italic;color:var(--accent);">All the Time</em></h1>
+      <p style="font-size:1.05rem;color:var(--muted);max-width:520px;line-height:1.75;">Everything you need to know before working with us. Click any question to read the answer.</p>
+    </div>
+  </div>
+
+  <section>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;" class="faq-page-grid">
+
+      <div>
+        <div class="sec-label reveal">Pricing & Getting Started</div>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What is the minimum budget to work with Influgoo?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We work with brands starting from ₹15,000 per campaign. This covers a starter campaign with 1–3 verified creators. For brands with a monthly budget of ₹40,000+, we offer full end-to-end management with better creator options and stronger results.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Is there a lock-in contract?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">No lock-in contracts at all. You start with a single campaign, see the results, and decide if you want to continue. Most clients stay because the results speak for themselves — not because of a contract.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Do you work with small or new D2C brands?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes — in fact, most of our best results come from early-stage brands. Influencer marketing is one of the most cost-effective channels for new brands to build awareness fast, especially in tech and AI niches where trust is everything.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What does the free LinkedIn automation bonus include?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Every brand that runs a campaign with us gets our LinkedIn auto-post automation tool for free. It automatically repurposes your influencer campaign content into LinkedIn posts, schedules them, and posts without any manual work from you. It extends your campaign reach to a professional audience at zero extra cost.</div>
+          </div>
+        </div>
+
+        <div class="sec-label reveal" style="margin-top:48px;">Campaigns & Process</div>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How quickly can you launch a campaign?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Most campaigns go live within 48–72 hours of brief approval. The full process from discovery call to live campaign typically takes 7 days. Rush launches are possible for time-sensitive product drops — just mention it on the call.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What platforms do you run campaigns on?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We primarily run campaigns on Instagram (Reels & Stories), YouTube (Reviews & Shorts), and LinkedIn (for B2B or developer-focused products). The platform mix is decided based on where your target audience actually spends time — we recommend the right combination during the discovery call.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Do I need to approve content before it goes live?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes, always. Every piece of content is reviewed by us first, then shared with you for final approval before anything goes live. Nothing is published without your sign-off. You stay in control at every step.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What does end-to-end campaign management mean?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">It means we handle everything: brief creation, creator research and vetting, outreach and negotiation, content review, posting coordination, payment handling, and final ROI report. You only need to approve the creator shortlist and final content — we do the rest.</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="sec-label reveal">Creators & Quality</div>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How do you make sure influencers don't have fake followers?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Every creator in our network goes through a manual vetting process. We check engagement rate patterns, follower growth history, audience demographics, comment quality, and brand safety. Anyone with signs of purchased engagement is rejected before they ever touch your brand — no exceptions.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What types of creators do you work with?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We work with micro-influencers (10K–100K followers) all the way up to top-tier creators with millions of followers. For most D2C brands, micro-influencers deliver the best ROI due to higher engagement rates and more targeted audiences. We recommend the right tier based on your goals and budget.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Do you specialise in any particular niche?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes — we specialise in AI & startup products and tech & gadgets D2C brands. These are the niches where we have the deepest creator networks and the most campaign experience. If your brand falls into another niche, reach out and we'll let you know if we can help.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How are creator payments handled?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We use an escrow-style payment process. Creators are only paid once they deliver and you approve the content. This protects your budget and ensures you only pay for what was agreed and delivered. We handle all payment logistics — you never have to chase a creator.</div>
+          </div>
+        </div>
+
+
+        <div class="sec-label reveal" style="margin-top:48px;">Working With Us</div>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How do I get started with Influgoo?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Book a free 30-minute discovery call via our Calendly link. On the call, we learn about your brand, product, and goals. If we are a good fit, we send you a campaign proposal within 24 hours. Once you approve, we can begin the campaign within the same week.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How many creators will work on my campaign?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">The Starter plan includes 1–3 creators, the Growth plan includes 5–10, and the Scale plan includes 10 or more. The right number depends on your goals and budget. For first campaigns, we generally recommend starting with 3–5 creators to test what works before scaling.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Who chooses the creators — you or me?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We research and shortlist the creators based on your brief. You then review and approve the shortlist before we reach out to anyone. It is a collaborative process — we bring the expertise, you make the final call. We never onboard a creator your brand is not comfortable with.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What happens if a creator does not deliver?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">This is exactly why we use escrow-style payments. Creators are only paid once they deliver agreed content and you approve it. If a creator fails to deliver, we find a replacement at no additional cost to you. Our contracts with creators include delivery guarantees and penalty clauses.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Can I run multiple campaigns at the same time?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes. Brands on our Scale plan can run multiple simultaneous campaigns targeting different audiences or platforms. We assign a dedicated campaign manager to coordinate across all active campaigns and ensure consistent brand messaging and quality standards.</div>
+          </div>
+        </div>
+
+        <div class="sec-label reveal" style="margin-top:48px;">Results & Reporting</div>
+        <div class="faq-list" style="margin-top:24px;">
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What results can I realistically expect?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Our campaigns average a 3x ROAS, 8%+ engagement rate, and 91% campaign success rate. Results vary by product, budget, and niche — but we always set realistic expectations on the discovery call before you commit to anything.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What does the performance report include?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Every campaign ends with a detailed report covering: total reach and impressions, engagement rate per creator, click-through rates, conversions, ROAS, cost per acquisition, and our recommendations for the next campaign based on what worked best.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How do I track the campaign while it's live?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We provide regular updates during the live phase. You'll know when each piece of content goes live, and we flag any performance data that comes in early. The full report is delivered once the campaign window closes — usually 7–14 days after launch.</div>
+          </div>
+        </div>
+
+
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Can I see content before it goes live?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes, always. Every piece of creator content is reviewed by us and then sent to you for final approval before anything is published. Nothing goes live without your sign-off. You have full control over what represents your brand.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              How do you measure campaign success?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We track ROAS, cost per acquisition, engagement rate, click-through rate, and promo code redemption rate. Every campaign ends with a full performance report covering all key metrics. We set clear KPI targets before the campaign starts so you know exactly what success looks like.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              What information do you need from me to start?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">To start we need: a description of your product and its key benefits, your target customer profile, your campaign goal (signups, purchases, or awareness), your budget, and your timeline. We collect all of this on the discovery call — you do not need to prepare a formal document.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Do you work with brands outside India?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">We are India-first, meaning our creator network and primary expertise is in the Indian market. If you are a brand targeting Indian consumers from outside India, we can absolutely help. For campaigns targeting international audiences, reach out and we will discuss what is possible.</div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              Can I reuse the creator content for my own ads?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-a">Yes — and we strongly recommend it. Creator content used as UGC ads consistently outperforms brand-produced ad creatives. We include content usage rights in all creator agreements, so you are free to repurpose campaign content for paid ads, social posts, and email marketing.</div>
+          </div>
+
+        <!-- STILL HAVE QUESTIONS -->
+        <div style="background:var(--bg3);border-radius:16px;padding:32px;margin-top:40px;text-align:center;" class="reveal">
+          <div style="font-size:1.8rem;margin-bottom:12px;">🤔</div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:700;color:var(--navy);margin-bottom:8px;">Still Have Questions?</h3>
+          <p style="font-size:0.85rem;color:var(--muted);margin-bottom:24px;line-height:1.6;">Book a free 30-min call and ask us anything directly. No pressure, no sales pitch.</p>
+          <a href="https://calendly.com/influgoo/30min" target="_blank" class="btn-primary" style="display:inline-flex;">Book Free Call →</a>
+          <div style="margin-top:12px;">
+            <a href="mailto:influgoo@gmail.com">influgoo@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="javascript:void(0)" class="nav-logo" onclick="showPage('home')">Influ<span>goo<
