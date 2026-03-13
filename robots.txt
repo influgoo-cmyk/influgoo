@@ -1,0 +1,136 @@
+# Allow all bots by default
+User-agent: *
+Allow: /
+
+# =====================
+# SEARCH ENGINES
+# =====================
+
+# Google
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Googlebot-Video
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
+User-agent: msnbot-media
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex (Russia)
+User-agent: Yandex
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+# Baidu (China)
+User-agent: Baiduspider
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter/X
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Telegram
+User-agent: TelegramBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterestbot
+Allow: /
+
+# =====================
+# AI CRAWLERS
+# =====================
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Common AI training crawlers
+User-agent: CCBot
+Allow: /
+User-agent: omgili
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: YouBot
+Allow: /
+
+# =====================
+# SEO TOOLS
+# =====================
+
+User-agent: AhrefsBot
+Allow: /
+User-agent: SemrushBot
+Allow: /
+User-agent: MJ12bot
+Allow: /
+User-agent: DotBot
+Allow: /
+User-agent: rogerbot
+Allow: /
+
+# =====================
+# SITEMAP
+# =====================
+
+Sitemap: https://influgoo.zencampaigns.com/sitemap.xml
